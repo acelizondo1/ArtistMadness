@@ -1,0 +1,803 @@
+{
+    "artistName": "Kanye West",
+    "bracketSize": 64,
+    "bracketEntries": [
+      {
+        "region": "North West",
+        "rd64": [
+          {
+            "seed": 1,
+            "songName": "Can't Tell Me Nothing",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": 16,
+            "songName": "Amazing",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": 8,
+            "songName": "So Appalled",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": 9,
+            "songName": "Never Let Me Down",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": 5,
+            "songName": "Last Call",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": 12,
+            "songName": "Hey Mama",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": 4,
+            "songName": "Devil in a New Dress",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": 13,
+            "songName": "Real Friends",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": 6,
+            "songName": "Crack Music",
+            "songUrl": "",
+            "nextRdIndex": 4
+          },
+          {
+            "seed": 11,
+            "songName": "New Slaves",
+            "songUrl": "",
+            "nextRdIndex": 4
+          },
+          {
+            "seed": 3,
+            "songName": "Flashing Lights",
+            "songUrl": "",
+            "nextRdIndex": 5
+          },
+          {
+            "seed": 14,
+            "songName": "Famous",
+            "songUrl": "",
+            "nextRdIndex": 5
+          },
+          {
+            "seed": 7,
+            "songName": "Big Brother",
+            "songUrl": "",
+            "nextRdIndex": 6
+          },
+          {
+            "seed": 10,
+            "songName": "Love Lockdown",
+            "songUrl": "",
+            "nextRdIndex": 6
+          },
+          {
+            "seed": 2,
+            "songName": "Through the Wire",
+            "songUrl": "",
+            "nextRdIndex": 7
+          },
+          {
+            "seed": 15,
+            "songName": "No Church in the Wild",
+            "songUrl": "",
+            "nextRdIndex": 7
+          }
+        ],
+        "rd32": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 3
+          }
+        ],
+        "sweet16": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          }
+        ],
+        "elite8": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          }
+        ],
+        "final4": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          }
+        ]
+      },
+      {
+        "region": "DONDA",
+        "rd64": [
+          {
+            "seed": 1,
+            "songName": "All Falls Down",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": 16,
+            "songName": "Addiction",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": 8,
+            "songName": "Monster",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": 9,
+            "songName": "Heartless",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": 5,
+            "songName": "Drive Slow",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": 12,
+            "songName": "Highlights",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": 4,
+            "songName": "Runaway",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": 13,
+            "songName": "Blood on the Leaves",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": 6,
+            "songName": "Blame Game",
+            "songUrl": "",
+            "nextRdIndex": 4
+          },
+          {
+            "seed": 11,
+            "songName": "Roses",
+            "songUrl": "",
+            "nextRdIndex": 4
+          },
+          {
+            "seed": 3,
+            "songName": "Good Life",
+            "songUrl": "",
+            "nextRdIndex": 5
+          },
+          {
+            "seed": 14,
+            "songName": "Celebration",
+            "songUrl": "",
+            "nextRdIndex": 5
+          },
+          {
+            "seed": 7,
+            "songName": "The Glory",
+            "songUrl": "",
+            "nextRdIndex": 6
+          },
+          {
+            "seed": 10,
+            "songName": "Get Em High",
+            "songUrl": "",
+            "nextRdIndex": 6
+          },
+          {
+            "seed": 2,
+            "songName": "All of the Lights",
+            "songUrl": "",
+            "nextRdIndex": 7
+          },
+          {
+            "seed": 15,
+            "songName": "School Spirit",
+            "songUrl": "",
+            "nextRdIndex": 7
+          }
+        ],
+        "rd32": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 3
+          }
+        ],
+        "sweet16": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          }
+        ],
+        "elite8": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          }
+        ],
+        "final4": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          }
+        ]
+      },
+      {
+        "region": "CHICAGO",
+        "rd64": [
+          {
+            "seed": 1,
+            "songName": "Jesus Walks",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": 16,
+            "songName": "Murder to Excellence",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": 8,
+            "songName": "Street Lights",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": 9,
+            "songName": "We Don't Care",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": 5,
+            "songName": "We Major",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": 12,
+            "songName": "30 Hours",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": 4,
+            "songName": "Stronger",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": 13,
+            "songName": "Black Skinheads",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": 6,
+            "songName": "Gold Digger",
+            "songUrl": "",
+            "nextRdIndex": 4
+          },
+          {
+            "seed": 11,
+            "songName": "Gotta Have It",
+            "songUrl": "",
+            "nextRdIndex": 4
+          },
+          {
+            "seed": 3,
+            "songName": "Slow Jamz",
+            "songUrl": "",
+            "nextRdIndex": 5
+          },
+          {
+            "seed": 14,
+            "songName": "No More Parties in LA",
+            "songUrl": "",
+            "nextRdIndex": 5
+          },
+          {
+            "seed": 7,
+            "songName": "Say You Will",
+            "songUrl": "",
+            "nextRdIndex": 6
+          },
+          {
+            "seed": 10,
+            "songName": "Good Morning",
+            "songUrl": "",
+            "nextRdIndex": 6
+          },
+          {
+            "seed": 2,
+            "songName": "Power",
+            "songUrl": "",
+            "nextRdIndex": 7
+          },
+          {
+            "seed": 15,
+            "songName": "Father Stretch My Hands Pt. 1",
+            "songUrl": "",
+            "nextRdIndex": 7
+          }
+        ],
+        "rd32": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 3
+          }
+        ],
+        "sweet16": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          }
+        ],
+        "elite8": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          }
+        ],
+        "final4": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          }
+        ]
+      },
+      {
+        "region": "SAINT",
+        "rd64": [
+          {
+            "seed": 1,
+            "songName": "Touch the Sky",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": 16,
+            "songName": "The New Workout Plan",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": 8,
+            "songName": "Champion",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": 9,
+            "songName": "Otis",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": 5,
+            "songName": "Spaceship",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": 12,
+            "songName": "Ultralight Beams",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": 4,
+            "songName": "Diamonds from Sierra Leone",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": 13,
+            "songName": "Dark Fantasy",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": 6,
+            "songName": "Heard Em Say",
+            "songUrl": "",
+            "nextRdIndex": 4
+          },
+          {
+            "seed": 11,
+            "songName": "I Wonder",
+            "songUrl": "",
+            "nextRdIndex": 4
+          },
+          {
+            "seed": 3,
+            "songName": "Gorgeous",
+            "songUrl": "",
+            "nextRdIndex": 5
+          },
+          {
+            "seed": 14,
+            "songName": "Homecoming",
+            "songUrl": "",
+            "nextRdIndex": 5
+          },
+          {
+            "seed": 7,
+            "songName": "Family Business",
+            "songUrl": "",
+            "nextRdIndex": 6
+          },
+          {
+            "seed": 10,
+            "songName": "Bound 2",
+            "songUrl": "",
+            "nextRdIndex": 6
+          },
+          {
+            "seed": 2,
+            "songName": "N****s in Paris",
+            "songUrl": "",
+            "nextRdIndex": 7
+          },
+          {
+            "seed": 15,
+            "songName": "Late",
+            "songUrl": "",
+            "nextRdIndex": 7
+          }
+        ],
+        "rd32": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 2
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 3
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 3
+          }
+        ],
+        "sweet16": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          }
+        ],
+        "elite8": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          },
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 0
+          }
+        ],
+        "final4": [
+          {
+            "seed": "",
+            "songName": "",
+            "songUrl": "",
+            "nextRdIndex": 1
+          }
+        ]
+      }
+    ]
+  }
+  
