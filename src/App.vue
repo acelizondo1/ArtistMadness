@@ -8,7 +8,7 @@
       <app-start v-if="!appStart"></app-start>
       <div class="active-app" v-else>
         <artist-nav></artist-nav>
-        <bracket></bracket>
+        <bracket :bracketView="view"></bracket>
       </div>
     </div>
   </div>
@@ -25,7 +25,8 @@
     name: 'app',
     data: () => {
       return{
-        appStart: eventBus.appActive
+        appStart: eventBus.appActive,
+        view: 0
       }
     },
     components: {

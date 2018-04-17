@@ -1,21 +1,29 @@
 <template>
-  <div class="bracket">
-      {{ selectedArtist.artistName }}
+  <div class="bracket container fluid">
+      <div class="grid-x">
+          <bracket-region v-for="region in regions">{{ region.region }}</bracket-region>
+      </div>
   </div>
 </template>
 
 <script>
     import { eventBus } from '../../EventBus.js';
+    import Region from './Region.vue';
 
     export default {
         data: () => {
             return {
-                selectedArtist: eventBus.selectedArtist
+                regions: []
             };
         },
+        props: ['bracketView'],
+        components: {
+            'bracket-region': Region
+        },
         created(){
+            this.regions = eventBus.pullRegions(this.bracketView);
             eventBus.$on('selectedArtistChanged', (newArtist) => {
-                this.selectedArtist = newArtist;
+                this.regions = eventBus.pullRegions(this.bracketView);
             });
         }
     }

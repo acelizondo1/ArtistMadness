@@ -25,6 +25,15 @@ export const eventBus = new Vue({
         },
         appStateChange(){
             this.$emit('appStateChange', this.appActive);
+        },
+        pullRegions(bracketView){
+            var regions = [];
+            this.selectedArtist.bracketEntries.forEach((region) => {
+                if(region.view === bracketView){
+                    regions.push(region);
+                }
+            });
+            return regions;
         }
     }
 });
