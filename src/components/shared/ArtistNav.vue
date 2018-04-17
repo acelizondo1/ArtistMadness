@@ -1,15 +1,12 @@
 <template>
     <div class="artist-nav">
         <ul class="menu grid-x">
-            <li class="cell small-4"></li>
             <li class="cell small-2" v-for="artist in artists" :style="styleSelected(artist)">
                 <a href="#" @click.prevent="changeBracket(artist)">{{ artist.artistName }}</a>
             </li>
-            <li class="cell small-fluid"></li>
+            <li class="cell small-6"></li>
+            <button class="button cell small-2 float-right" @click="resetApp()">Reset</button>
         </ul>
-        <div class="grid-x">
-            <button class="button cell small-3 float-center" @click="resetApp()">Reset</button>
-        </div>
     </div>
   
 </template>
@@ -48,7 +45,7 @@
 
 <style scoped>
     .artist-nav{
-        height: 12vh;
+        height: 5vh;
         margin-top: 1vh;
         overflow:hidden;
     }
@@ -66,6 +63,8 @@
         transform: translateX(200%); */
         text-align:center;
         margin-bottom: 1vh;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     

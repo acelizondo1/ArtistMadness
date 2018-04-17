@@ -24,6 +24,6 @@
 <style>
     .bracket{
         margin-top: 1vh;
-        height: 75vh;
+        height: 83vh;
     }
 </style>
