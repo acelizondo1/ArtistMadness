@@ -1,13 +1,13 @@
 <template>
     <div>
-        <slot></slot>
+        {{region.region}}
     </div>
   
 </template>
 
 <script>
     export default {
-    
+        props: ['region']
     }
 </script>
 

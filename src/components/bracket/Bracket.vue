@@ -1,7 +1,7 @@
 <template>
   <div class="bracket container fluid">
       <div class="grid-x">
-          <bracket-region v-for="region in regions">{{ region.region }}</bracket-region>
+          <bracket-region v-for="region in regions" :region="region"></bracket-region>
       </div>
   </div>
 </template>
