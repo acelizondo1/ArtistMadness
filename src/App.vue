@@ -6,6 +6,9 @@
     
     <div id="app-body">
       <app-start v-if="!appStart"></app-start>
+      <div class="active-app" v-else>
+        <artist-nav></artist-nav>
+      </div>
     </div>
   </div>
 </template>
@@ -14,6 +17,7 @@
   import { eventBus } from './EventBus';
   import Header from './components/shared/Header.vue';
   import AppStart from './components/shared/AppStart.vue';
+  import ArtistNav from './components/shared/ArtistNav.vue';
 
   export default {
     name: 'app',
@@ -24,7 +28,8 @@
     },
     components: {
       'app-header': Header,
-      'app-start': AppStart
+      'app-start': AppStart,
+      'artist-nav': ArtistNav
     },
     created(){
       //listens to app start stop event
@@ -44,7 +49,7 @@
     height: 10vh;
   }
 
-  #app-body{
+  #app-body, .active-app{
     height: 90vh;
   }
   

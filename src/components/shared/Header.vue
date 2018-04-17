@@ -39,7 +39,7 @@
     }
 
     .mainImage>img{
-        height: 10vh;
+        height: 8vh;
     }
 
 </style>

@@ -13,12 +13,12 @@ export const eventBus = new Vue({
     methods:{
         pickArtistBracket(artistObject){
             this.selectedArtist = artistObject;
+            this.$emit('selectedArtistChanged', this.selectedArtist);
         },
         startBracketInstance(){
             if(!this.selectedArtist){
                 alert('Please pick an artist to start!');
             } else{
-                console.log(this.selectedArtist);
                 this.appActive = true;
                 this.appStateChange();
             }
