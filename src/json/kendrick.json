@@ -4,6 +4,7 @@
   "bracketEntries": [
     {
       "region": "Kung-fu",
+      "view": 0,
       "rd64": [
         {
           "seed": 1,
@@ -203,6 +204,7 @@
     },
     {
       "region": "K.DOT",
+      "view": 1,
       "rd64": [
         {
           "seed": 1,
@@ -402,6 +404,7 @@
     },
     {
       "region": "CORNROW",
+      "view": 0,
       "rd64": [
         {
           "seed": 1,
@@ -601,6 +604,7 @@
     },
     {
       "region": "KING",
+      "view": 1,
       "rd64": [
         {
           "seed": 1,
@@ -795,6 +799,57 @@
           "songName": "",
           "songUrl": "",
           "nextRdIndex": 1
+        }
+      ]
+    },
+    {
+      "region": "FINALS",
+      "view": 2,
+      "final4": [
+        {
+          "seed": "",
+          "songName": "",
+          "songUrl": "",
+          "nextRdIndex": 0
+        },
+        {
+          "seed": "",
+          "songName": "",
+          "songUrl": "",
+          "nextRdIndex": 0
+        },
+        {
+          "seed": "",
+          "songName": "",
+          "songUrl": "",
+          "nextRdIndex": 1
+        },
+        {
+          "seed": "",
+          "songName": "",
+          "songUrl": "",
+          "nextRdIndex": 1
+        }
+      ],
+      "championship": [
+        {
+          "seed": "",
+          "songName": "",
+          "songUrl": "",
+          "nextRdIndex": 0
+        },
+        {
+          "seed": "",
+          "songName": "",
+          "songUrl": "",
+          "nextRdIndex": 0
+        }          
+      ],
+      "champion": [
+        {
+          "seed": "",
+          "songName": "",
+          "songUrl": ""
         }
       ]
     }
