@@ -1,7 +1,12 @@
 <template>
   <div class="bracket container fluid">
       <div class="grid-x">
-          <bracket-region v-for="region in regions" :region="region"></bracket-region>
+          <div class="cell small-6">
+               <bracket-region :region="regions[0]" :orientation="'left'"></bracket-region>
+          </div>
+          <div class="cell small-6">
+               <bracket-region :region="regions[1]" :orientation="'right'"></bracket-region>
+          </div>
       </div>
   </div>
 </template>
