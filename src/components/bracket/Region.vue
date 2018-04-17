@@ -1,8 +1,9 @@
 <template>
     <div>
-        {{region.region}}
+        <div v-for="(rdData, rdName) in region.rds">
+            {{rdName}}
+        </div>
     </div>
-  
 </template>
 
 <script>

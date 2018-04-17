@@ -5,7 +5,9 @@
       {
         "region": "North West",
         "view": 0,
-        "rd64": [
+        "rds":
+        {
+          "rd64": [
           {
             "seed": 1,
             "songName": "Can't Tell Me Nothing",
@@ -102,110 +104,113 @@
             "songUrl": "",
             "nextRdIndex": 7
           }
-        ],
-        "rd32": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          }
-        ],
-        "sweet16": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ],
-        "elite8": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ],
-        "final4": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ]
+          ],
+          "rd32": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 2
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 2
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 3
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 3
+            }
+          ],
+          "sweet16": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            }
+          ],
+          "elite8": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            }
+          ],
+          "final4": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            }
+          ]
+        }
       },
       {
         "region": "DONDA",
         "view": 1,
-        "rd64": [
+        "rds":
+        {
+          "rd64": [
           {
             "seed": 1,
             "songName": "All Falls Down",
@@ -302,110 +307,113 @@
             "songUrl": "",
             "nextRdIndex": 7
           }
-        ],
-        "rd32": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          }
-        ],
-        "sweet16": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ],
-        "elite8": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ],
-        "final4": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ]
+          ],
+          "rd32": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 2
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 2
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 3
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 3
+            }
+          ],
+          "sweet16": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            }
+          ],
+          "elite8": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            }
+          ],
+          "final4": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            }
+          ]
+        }
       },
       {
         "region": "CHICAGO",
         "view": 0,
-        "rd64": [
+        "rds":
+        {
+          "rd64": [
           {
             "seed": 1,
             "songName": "Jesus Walks",
@@ -502,110 +510,113 @@
             "songUrl": "",
             "nextRdIndex": 7
           }
-        ],
-        "rd32": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          }
-        ],
-        "sweet16": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ],
-        "elite8": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ],
-        "final4": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ]
+          ],
+          "rd32": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 2
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 2
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 3
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 3
+            }
+          ],
+          "sweet16": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            }
+          ],
+          "elite8": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            }
+          ],
+          "final4": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            }
+          ]
+        }
       },
       {
         "region": "SAINT",
         "view": 1,
-        "rd64": [
+        "rds":
+        {
+          "rd64": [
           {
             "seed": 1,
             "songName": "Touch the Sky",
@@ -702,105 +713,106 @@
             "songUrl": "",
             "nextRdIndex": 7
           }
-        ],
-        "rd32": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          }
-        ],
-        "sweet16": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ],
-        "elite8": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ],
-        "final4": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ]
+          ],
+          "rd32": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 2
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 2
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 3
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 3
+            }
+          ],
+          "sweet16": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            }
+          ],
+          "elite8": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            },
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 0
+            }
+          ],
+          "final4": [
+            {
+              "seed": "",
+              "songName": "",
+              "songUrl": "",
+              "nextRdIndex": 1
+            }
+          ]
+        }
       },
       {
         "region": "FINALS",
