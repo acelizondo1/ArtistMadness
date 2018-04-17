@@ -8,6 +8,7 @@
       <app-start v-if="!appStart"></app-start>
       <div class="active-app" v-else>
         <artist-nav></artist-nav>
+        <bracket></bracket>
       </div>
     </div>
   </div>
@@ -18,6 +19,7 @@
   import Header from './components/shared/Header.vue';
   import AppStart from './components/shared/AppStart.vue';
   import ArtistNav from './components/shared/ArtistNav.vue';
+  import Bracket from './components/bracket/Bracket.vue';
 
   export default {
     name: 'app',
@@ -29,7 +31,8 @@
     components: {
       'app-header': Header,
       'app-start': AppStart,
-      'artist-nav': ArtistNav
+      'artist-nav': ArtistNav,
+      'bracket': Bracket
     },
     created(){
       //listens to app start stop event
@@ -50,7 +53,7 @@
   }
 
   #app-body, .active-app{
-    height: 90vh;
+    height: 89vh;
   }
   
 

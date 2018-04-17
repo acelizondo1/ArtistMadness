@@ -10,7 +10,6 @@
         <div class="grid-x">
             <button class="button cell small-3 float-center" @click="resetApp()">Reset</button>
         </div>
-        {{artistObject}}
     </div>
   
 </template>
@@ -49,8 +48,9 @@
 
 <style scoped>
     .artist-nav{
-        height: 10vh;
-        margin: 1vh 0;
+        height: 12vh;
+        margin-top: 1vh;
+        overflow:hidden;
     }
 
     li{
