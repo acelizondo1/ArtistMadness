@@ -21,7 +21,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .bracket{
         margin-top: 1vh;
         height: 83vh;
