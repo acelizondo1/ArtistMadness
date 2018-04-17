@@ -58,7 +58,7 @@
                 eventBus.pickArtistBracket(artistObject);
             },
             startBracket(){
-                
+                eventBus.startBracketInstance();
             }
         }
   

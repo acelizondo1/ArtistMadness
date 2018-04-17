@@ -19,12 +19,18 @@
     name: 'app',
     data: () => {
       return{
-        appStart: false
+        appStart: eventBus.appActive
       }
     },
     components: {
       'app-header': Header,
       'app-start': AppStart
+    },
+    created(){
+      //listens to app start stop event
+      eventBus.$on('appStateChange', (appState) => {
+        this.appStart = appState;
+      });
     }
   }
 </script>

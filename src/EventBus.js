@@ -7,11 +7,24 @@ export const eventBus = new Vue({
        bracketData: {
            artistList: [kendrick, kanye]
        },
-       selectedArtist: Object
+       appActive: false,
+       selectedArtist: ''
     },
     methods:{
         pickArtistBracket(artistObject){
-            console.log(artistObject);
+            this.selectedArtist = artistObject;
+        },
+        startBracketInstance(){
+            if(!this.selectedArtist){
+                alert('Please pick an artist to start!');
+            } else{
+                console.log(this.selectedArtist);
+                this.appActive = true;
+                this.appStateChange();
+            }
+        },
+        appStateChange(){
+            this.$emit('appStateChange', this.appActive);
         }
     }
 });
