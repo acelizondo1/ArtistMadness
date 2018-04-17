@@ -1,11 +1,12 @@
 import Vue from 'vue';
 import kendrick from './json/kendrick.json';
 import kanye from './json/kanye.json';
+import jcole from './json/jcole.json';
 
 export const eventBus = new Vue({
     data: {
        bracketData: {
-           artistList: [kendrick, kanye]
+           artistList: [kendrick, kanye, jcole]
        },
        appActive: false,
        selectedArtist: ''

@@ -4,7 +4,7 @@
             <li class="cell small-2" v-for="artist in artists" :style="styleSelected(artist)">
                 <a href="#" @click.prevent="changeBracket(artist)">{{ artist.artistName }}</a>
             </li>
-            <li class="cell small-6"></li>
+            <li class="cell small-4"></li>
             <button class="button cell small-2 float-right" @click="resetApp()">Reset</button>
         </ul>
     </div>
