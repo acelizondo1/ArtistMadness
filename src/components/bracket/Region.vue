@@ -4,8 +4,8 @@
             <div v-for="(rdData, rdName) in round">
                 <div class="rdHeader">{{ rdName}}</div>
                 <div class="songCell" :class="rdName" v-for="song in rdData">
-                    <!--<span class="songSeed">{{ song.seed }}.</span>-->
-                    <span class="songName">{{ song.songName }}</span>
+                    <div class="songSeed">{{ song.seed }}.</div>
+                    <div class="songName">{{ song.songName }}</div>
                 </div>
             </div>
         </div>
@@ -13,6 +13,8 @@
 </template>
 
 <script>
+    import { eventBus} from '../../EventBus.js';
+
     export default {
         data: () => {
             return {
@@ -37,7 +39,13 @@
             }
         },
         created(){
+            console.log(this.region);
             this.regionRds = this.orderRegion(this.orientation);
+
+            eventBus.$on('selectedArtistChanged', (data) => {
+                console.log(this.region);
+                this.regionRds = this.orderRegion(this.orientation);
+            });
         }
     }
 </script>
@@ -67,17 +75,22 @@
 }
 
 .songCell>.songName{
-    display:inline-block;
-    vertical-align: -webkit-baseline-middle;
+    display: inline-block;
+    /* vertical-align: -webkit-baseline-middle; */
 }
 
-/* .songSeed{
-    width: 10%;
+ .songSeed{
+     float: left;
+     display: inline-block;
+    font-size: 10px;
+    width: 15%;
+    height: 100%;
+    background-color: lightgrey;
 }
 
 .songName{
-    width: 90%;
-} */
+    width: 85%;
+}
 
 .rd32{
     margin-top: 2.25vh;
