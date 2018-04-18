@@ -5,32 +5,37 @@ import jcole from './json/jcole.json';
 
 export const eventBus = new Vue({
     data: {
-       bracketData: {
-           artistList: [kendrick, kanye, jcole]
-       },
-       appActive: false,
-       selectedArtist: ''
+        bracketData: {
+            artistList: [kendrick, kanye, jcole]
+        },
+        appActive: false,
+        selectedArtist: ''
     },
-    methods:{
-        pickArtistBracket(artistObject){
+    methods: {
+        pickArtistBracket(artistObject) {
             this.selectedArtist = artistObject;
             this.$emit('selectedArtistChanged', this.selectedArtist);
         },
-        startBracketInstance(){
-            if(!this.selectedArtist){
+        startBracketInstance() {
+            if (!this.selectedArtist) {
                 alert('Please pick an artist to start!');
-            } else{
+            } else {
                 this.appActive = true;
                 this.appStateChange();
             }
         },
-        appStateChange(){
+        resetBracketInstance() {
+            this.selectedArtist = '';
+            this.appActive = false;
+            this.appStateChange();
+        },
+        appStateChange() {
             this.$emit('appStateChange', this.appActive);
         },
-        pullRegions(bracketView){
+        pullRegions(bracketView) {
             var regions = [];
             this.selectedArtist.bracketEntries.forEach((region) => {
-                if(region.view === bracketView){
+                if (region.view === bracketView) {
                     regions.push(region);
                 }
             });

@@ -22,8 +22,7 @@
         },
         methods: {
             resetApp(){
-                eventBus.appActive = false;
-                eventBus.appStateChange();
+                eventBus.resetBracketInstance();
             },
             changeBracket(artistObject){
                 eventBus.pickArtistBracket(artistObject);

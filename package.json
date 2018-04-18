@@ -24,6 +24,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
+    "file-loader": "^1.1.11",
     "foundation-sites": "^6.4.4-rc1",
     "i": "^0.3.6",
     "jquery": "^3.3.1",
