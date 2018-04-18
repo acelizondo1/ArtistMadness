@@ -43,7 +43,8 @@
 }
 
 .rdColumn{
-    width: 20%;
+    width: 18.5%;
+    margin-right: 1.5%;
 }
 
 .rdHeader{
@@ -54,8 +55,8 @@
 .songCell{
     height: 4.5vh;
     margin-bottom: 0.45vh;
+    /* border: 1px solid #999; */
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #ddd;
-    /* padding-top: 0.25vh; */
 }
 
 .songCell>span{
@@ -69,6 +70,29 @@
 
 .rd32 ~ .rd32{
     margin-top: 5.5vh;
+}
+
+.sweet16{
+    height: 5.5vh;
+    margin-top: 6.75vh;
+}
+
+.sweet16 ~ .sweet16{
+    margin-top: 14.5vh;
+}
+
+.elite8{
+    height: 6.5vh;
+    margin-top: 16vh;
+}
+
+.elite8 ~ .elite8{
+    margin-top: 33.5vh;
+}
+
+.final4{
+    height: 8vh;
+    margin-top: 35.5vh;
 }
 
 
