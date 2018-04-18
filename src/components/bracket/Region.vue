@@ -53,7 +53,7 @@
 
 .songCell{
     height: 4.5vh;
-    margin-top: 0.45vh;
+    margin-bottom: 0.45vh;
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #ddd;
     /* padding-top: 0.25vh; */
 }
@@ -62,5 +62,15 @@
     display:inline-block;
     vertical-align: -webkit-baseline-middle;
 }
+
+.rd32{
+    margin-top: 2.25vh;
+}
+
+.rd32 ~ .rd32{
+    margin-top: 5.5vh;
+}
+
+
 
 </style>
