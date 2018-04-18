@@ -50,11 +50,11 @@
   }
 
   #app-header{
-    height: 10vh;
+    height: 8vh;
   }
 
   #app-body, .active-app{
-    height: 89vh;
+    height: 91vh;
   }
   
 

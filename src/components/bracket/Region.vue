@@ -1,9 +1,12 @@
 <template>
     <div class="grid-x rdCell">
-        <div class="cell rdColumn" v-for="(rdData, rdName) in region.rds">
-            <div class="rdHeader">{{ rdName }}</div>
-            <div class="songCell" :class="rdName" v-for="song in rdData">
-                <span class="songSeed">{{ song.seed }}.</span><span class="songName">{{ song.songName }}</span>
+        <div class="cell rdColumn" v-for="round in regionRds">
+            <div v-for="(rdData, rdName) in round">
+                <div class="rdHeader">{{ rdName}}</div>
+                <div class="songCell" :class="rdName" v-for="song in rdData">
+                    <!--<span class="songSeed">{{ song.seed }}.</span>-->
+                    <span class="songName">{{ song.songName }}</span>
+                </div>
             </div>
         </div>
     </div>
@@ -18,20 +21,23 @@
         },
         props: ['region', 'orientation'],
         methods: {
-            reverseRegion(){
+            orderRegion(orientation){
                 var order = [];
                 for(var key in this.region.rds){
-                    order.push(key);
+                    var rdObject = {};
+                    rdObject[key] = this.region.rds[key];
+                    if(orientation === 'right'){
+                        order.unshift(rdObject);
+                    } else if (orientation === 'left') {
+                        order.push(rdObject);
+                    }
                 }
+                
                 return order;
             }
         },
         created(){
-            if(this.orientation === 'right'){
-                this.regionRds = this.reverseRegion();
-            } else {
-                this.regionRds = this.region.rds;
-            }
+            this.regionRds = this.orderRegion(this.orientation);
         }
     }
 </script>
@@ -65,13 +71,13 @@
     vertical-align: -webkit-baseline-middle;
 }
 
-.songSeed{
+/* .songSeed{
     width: 10%;
 }
 
 .songName{
     width: 90%;
-}
+} */
 
 .rd32{
     margin-top: 2.25vh;
