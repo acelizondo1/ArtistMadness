@@ -3,7 +3,7 @@
         <div class="cell rdColumn" v-for="(rdData, rdName) in region.rds">
             <div class="rdHeader">{{ rdName }}</div>
             <div class="songCell" :class="rdName" v-for="song in rdData">
-                <span>{{ song.songName }}</span>
+                <span class="songSeed">{{ song.seed }}.</span><span class="songName">{{ song.songName }}</span>
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@
 
 <style scoped>
 .rdCell{
-    font-size: 0.74rem;
+    font-size: 0.7rem;
     text-align: center;
 }
 
@@ -57,11 +57,20 @@
     margin-bottom: 0.45vh;
     /* border: 1px solid #999; */
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #ddd;
+    cursor: pointer;
 }
 
-.songCell>span{
+.songCell>.songName{
     display:inline-block;
     vertical-align: -webkit-baseline-middle;
+}
+
+.songSeed{
+    width: 10%;
+}
+
+.songName{
+    width: 90%;
 }
 
 .rd32{
