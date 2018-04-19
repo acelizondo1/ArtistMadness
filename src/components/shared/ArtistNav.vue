@@ -58,8 +58,6 @@
     }
 
     .menu{
-        /* position: absolute;
-        transform: translateX(200%); */
         text-align:center;
         margin-bottom: 1vh;
         padding-left: 1rem;
