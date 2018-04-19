@@ -45,10 +45,6 @@
         },
         created(){
             this.regionRds = this.orderRegion(this.region);
-
-            // eventBus.$on('selectedArtistChanged', (data) => {
-            //     this.regionRds = this.orderRegion(this.orientation);
-            // });
         }
     }
 </script>
