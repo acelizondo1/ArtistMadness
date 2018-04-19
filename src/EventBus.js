@@ -48,6 +48,24 @@ export const eventBus = new Vue({
                 }
             });
             return regions;
+        },
+        pullNextRd(currRd) {
+            // var index = this.rdOrder.findIndex((element) => {
+            //     return element === currRd;
+            // });
+            var index = this.rdOrder.indexOf(currRd);
+            var nextIndex = index + 1;
+            console.log(nextIndex);
+            if (nextIndex < this.rdOrder.length) {
+                console.log(this.rdOrder[nextIndex]);
+                return this.rdOrder[nextIndex];
+            } else {
+                console.log('There is no next round!');
+            }
+        },
+        updateSongPosition(songData, currRd) {
+            this.pullNextRd(currRd);
+            //this.selectedArtist.rds[currRd]
         }
     }
 });

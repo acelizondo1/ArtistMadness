@@ -3,7 +3,7 @@
         <div class="cell rdColumn" v-for="round in regionRds">
             <div v-for="(rdData, rdName) in round">
                 <div class="rdHeader">{{ generateRoundName(rdName) }}</div>
-                <div class="songCell" :class="rdName" v-for="song in rdData" @click="advanceSong(song)">
+                <div class="songCell" :class="rdName" v-for="song in rdData" @click="advanceSong(song, rdName)">
                     <div class="songSeed">{{ song.seed }}.</div>
                     <div class="songName">{{ song.songName }}</div>
                 </div>
@@ -44,11 +44,10 @@
                 return order;
             },
             generateRoundName(rdKey){
-                console.log(eventBus.rdFullNames[rdKey]);
                 return eventBus.rdFullNames[rdKey];
             },
-            advanceSong(song){
-                
+            advanceSong(song, currRd){
+                eventBus.updateSongPosition(song, currRd);
             }
         },
         created(){
@@ -87,8 +86,8 @@
 }
 
  .songSeed{
-     float: left;
-     display: inline-block;
+    float: left;
+     /* display: inline-block; */
     font-size: 10px;
     width: 15%;
     height: 100%;
