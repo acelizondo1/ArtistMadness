@@ -1,9 +1,9 @@
 <template>
-    <div class="grid-x rdCell">
+    <div class="grid-x rdCell" :class="orientation">
         <div class="cell rdColumn" v-for="round in regionRds">
             <div v-for="(rdData, rdName) in round">
                 <div class="rdHeader">{{ generateRoundName(rdName) }}</div>
-                <div class="songCell" :class="rdName" v-for="song in rdData" @click="advanceSong(song, rdName)">
+                <div class="songCell" :class="[rdName, rdName+song.nextRdIndex]" v-for="song in rdData" @click="advanceSong(song, rdName, $event)">
                     <div class="songSeed">{{ song.seed }}.</div>
                     <div class="songName">{{ song.songName }}</div>
                 </div>
@@ -18,7 +18,8 @@
     export default {
         data: () => {
             return {
-                regionRds: ''
+                regionRds: '',
+                rdFullNames: eventBus.rdFullNames
             };
 
         },
@@ -44,10 +45,43 @@
                 return order;
             },
             generateRoundName(rdKey){
-                return eventBus.rdFullNames[rdKey];
+                return this.rdFullNames[rdKey][0];
             },
-            advanceSong(song, currRd){
-                eventBus.updateSongPosition(song, currRd, this.orientation);
+            advanceSong(song, currRd, event){
+                if(currRd === 'final4'){
+                    alert('Please Navigate To Final 4 To Pick Winner')
+                } else if (song.songName != ''){
+                    this.styleSelectedDiv(event.target, song, this.rdFullNames[currRd][1]);
+                    eventBus.updateSongPosition(song, currRd, this.orientation);
+                }
+                
+            },
+            styleSelectedDiv(target, songData, rdKeys){
+                var targetKey;
+                var domRegion;
+
+                //Checks if element clicked is songCell
+                if(!target.classList.contains('songCell')){
+                    target = target.parentNode;
+                }
+
+                //Loop to find target's key
+                for(var key in rdKeys){
+                    if(target.classList.contains(rdKeys[key])){
+                        targetKey = rdKeys[key];
+                        
+                        break;
+                    }
+                }
+                domRegion = document.getElementsByClassName(this.orientation)[0].getElementsByClassName(targetKey + ' roundWinner');
+                if(domRegion[0]){
+                    // for(var el in domRegion){
+                    //     console.log(domRegion[el]);
+                    //     domRegion[el].classList.remove('roundWinner');
+                    // }
+                    domRegion[0].classList.remove('roundWinner');
+                }
+                target.classList.add('roundWinner');
             }
         },
         created(){
@@ -127,6 +161,11 @@
 .final4{
     height: 8vh;
     margin-top: 35.5vh;
+}
+
+.roundWinner{
+    background-color: #00ffff;
+    border: 1px solid #777;
 }
 
 

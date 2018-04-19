@@ -13,11 +13,19 @@ export const eventBus = new Vue({
         currentBracketView: 0,
         rdOrder: ['rd64', 'rd32', 'sweet16', 'elite8', 'final4'],
         rdFullNames: {
-            'rd64': 'Round of 64',
-            'rd32': 'Round of 32',
-            'sweet16': 'Sweet 16',
-            'elite8': 'Elite 8',
-            'final4': 'Final 4'
+            'rd64': [
+                'Round of 64', ['rd640', 'rd641', 'rd642', 'rd643', 'rd644', 'rd645', 'rd646', 'rd647']
+            ],
+            'rd32': [
+                'Round of 32', ['rd320', 'rd321', 'rd322', 'rd323', ]
+            ],
+            'sweet16': [
+                'Sweet 16', ['sweet160', 'sweet161']
+            ],
+            'elite8': [
+                'Elite 8', ['elite80']
+            ],
+            'final4': ['Final 4']
         }
     },
     methods: {
@@ -72,8 +80,6 @@ export const eventBus = new Vue({
             region.rds[nextRd][songData.nextRdIndex].songName = songData.songName;
             region.rds[nextRd][songData.nextRdIndex].seed = songData.seed;
             region.rds[nextRd][songData.nextRdIndex].songUrl = songData.songUrl;
-
-
         }
     }
 });

@@ -103,7 +103,7 @@
                     }
                 ],
                 "rd32": [{
-                        "seed": "Test",
+                        "seed": "",
                         "songName": "",
                         "songUrl": "",
                         "nextRdIndex": 0
