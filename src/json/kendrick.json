@@ -1,869 +1,836 @@
 {
-  "artistName": "Kendrick Lamar",
-  "bracketSize": 64,
-  "bracketEntries": [
-    {
-      "region": "Kung-fu",
-      "view": 0,
-      "rds":
-      {
-        "rd64": [
-        {
-          "seed": 1,
-          "songName": "HiiPower",
-          "songUrl": "",
-          "nextRdIndex": 0
+    "artistName": "Kendrick Lamar",
+    "bracketSize": 64,
+    "bracketEntries": [{
+            "region": "Kung-fu",
+            "view": 0,
+            "rds": {
+                "rd64": [{
+                        "seed": 1,
+                        "songName": "HiiPower",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 16,
+                        "songName": "Average Joe",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 8,
+                        "songName": "Michael Jordan",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 9,
+                        "songName": "These Walls",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 5,
+                        "songName": "XXX.",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 12,
+                        "songName": "PRIDE.",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 4,
+                        "songName": "untitled 03",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 13,
+                        "songName": "LOVE.",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 6,
+                        "songName": "Mortal Man",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 11,
+                        "songName": "untitled 05",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 3,
+                        "songName": "Cartoons and Cereal",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 14,
+                        "songName": "The Spiteful Chant",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 7,
+                        "songName": "Ronald Reagan Era",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 10,
+                        "songName": "FEAR.",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 2,
+                        "songName": "Swimming Pools",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    },
+                    {
+                        "seed": 15,
+                        "songName": "Now or Never",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    }
+                ],
+                "rd32": [{
+                        "seed": "Test",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    }
+                ],
+                "sweet16": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "elite8": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                }]
+            }
         },
         {
-          "seed": 16,
-          "songName": "Average Joe",
-          "songUrl": "",
-          "nextRdIndex": 0
+            "region": "K.DOT",
+            "view": 1,
+            "rds": {
+                "rd64": [{
+                        "seed": 1,
+                        "songName": "Bitch Don't Kill My Vibe",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 16,
+                        "songName": "untitled 06",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 8,
+                        "songName": "King's Dead",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 9,
+                        "songName": "Keisha's Song",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 5,
+                        "songName": "Ignorance is Bliss",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 12,
+                        "songName": "Momma",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 4,
+                        "songName": "Black Friday",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 13,
+                        "songName": "Wanna Be Heard",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 6,
+                        "songName": "i",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 11,
+                        "songName": "Compton",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 3,
+                        "songName": "A.D.H.D.",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 14,
+                        "songName": "Big Shot",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 7,
+                        "songName": "Poetic Justice",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 10,
+                        "songName": "Sherane",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 2,
+                        "songName": "Rigamortis",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    },
+                    {
+                        "seed": 15,
+                        "songName": "P&P 1.5",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    }
+                ],
+                "rd32": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    }
+                ],
+                "sweet16": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "elite8": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                }]
+            }
         },
         {
-          "seed": 8,
-          "songName": "Michael Jordan",
-          "songUrl": "",
-          "nextRdIndex": 1
+            "region": "CORNROW",
+            "view": 0,
+            "rds": {
+                "rd64": [{
+                        "seed": 1,
+                        "songName": "Sing About Me, I'm Dying of Thirst",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 16,
+                        "songName": "Real",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 8,
+                        "songName": "The Art of Peer Pressure",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 9,
+                        "songName": "The Recipe",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 5,
+                        "songName": "The Blacker the Berry",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 12,
+                        "songName": "Wesley's Theory",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 4,
+                        "songName": "Look Out for Detox",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 13,
+                        "songName": "You Ain't Gotta Lie",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 6,
+                        "songName": "untitled 08",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 11,
+                        "songName": "Fuck Your Ethnicity",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 3,
+                        "songName": "HUMBLE.",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 14,
+                        "songName": "All the Stars",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 7,
+                        "songName": "King Kunta",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 10,
+                        "songName": "Hood Politics",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 2,
+                        "songName": "Money Trees",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    },
+                    {
+                        "seed": 15,
+                        "songName": "The Heart Pt. 4",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    }
+                ],
+                "rd32": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    }
+                ],
+                "sweet16": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "elite8": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 1
+                }]
+            }
         },
         {
-          "seed": 9,
-          "songName": "These Walls",
-          "songUrl": "",
-          "nextRdIndex": 1
+            "region": "KING",
+            "view": 1,
+            "rds": {
+                "rd64": [{
+                        "seed": 1,
+                        "songName": "m.A.A.d City",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 16,
+                        "songName": "No Make-Up",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 8,
+                        "songName": "Hol' Up",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 9,
+                        "songName": "untitled 02",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 5,
+                        "songName": "untitled 07",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 12,
+                        "songName": "LOYALTY.",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 4,
+                        "songName": "u",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 13,
+                        "songName": "The Heart Pt. 3",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 6,
+                        "songName": "DNA.",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 11,
+                        "songName": "DUCKWORTH.",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 3,
+                        "songName": "Backseat Freestyle",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 14,
+                        "songName": "Pray For Me",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 7,
+                        "songName": "ELEMENT.",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 10,
+                        "songName": "Blow My High",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 2,
+                        "songName": "Alright",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    },
+                    {
+                        "seed": 15,
+                        "songName": "Growing Apart",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    }
+                ],
+                "rd32": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    }
+                ],
+                "sweet16": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "elite8": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 1
+                }]
+            }
         },
         {
-          "seed": 5,
-          "songName": "XXX.",
-          "songUrl": "",
-          "nextRdIndex": 2
-        },
-        {
-          "seed": 12,
-          "songName": "PRIDE.",
-          "songUrl": "",
-          "nextRdIndex": 2
-        },
-        {
-          "seed": 4,
-          "songName": "untitled 03",
-          "songUrl": "",
-          "nextRdIndex": 3
-        },
-        {
-          "seed": 13,
-          "songName": "LOVE.",
-          "songUrl": "",
-          "nextRdIndex": 3
-        },
-        {
-          "seed": 6,
-          "songName": "Mortal Man",
-          "songUrl": "",
-          "nextRdIndex": 4
-        },
-        {
-          "seed": 11,
-          "songName": "untitled 05",
-          "songUrl": "",
-          "nextRdIndex": 4
-        },
-        {
-          "seed": 3,
-          "songName": "Cartoons and Cereal",
-          "songUrl": "",
-          "nextRdIndex": 5
-        },
-        {
-          "seed": 14,
-          "songName": "The Spiteful Chant",
-          "songUrl": "",
-          "nextRdIndex": 5
-        },
-        {
-          "seed": 7,
-          "songName": "Ronald Reagan Era",
-          "songUrl": "",
-          "nextRdIndex": 6
-        },
-        {
-          "seed": 10,
-          "songName": "FEAR.",
-          "songUrl": "",
-          "nextRdIndex": 6
-        },
-        {
-          "seed": 2,
-          "songName": "Swimming Pools",
-          "songUrl": "",
-          "nextRdIndex": 7
-        },
-        {
-          "seed": 15,
-          "songName": "Now or Never",
-          "songUrl": "",
-          "nextRdIndex": 7
+            "region": "FINALS",
+            "view": 2,
+            "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                },
+                {
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                },
+                {
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 1
+                },
+                {
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 1
+                }
+            ],
+            "championship": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                },
+                {
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                }
+            ],
+            "champion": [{
+                "seed": "",
+                "songName": "",
+                "songUrl": ""
+            }]
         }
-        ],
-        "rd32": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          }
-        ],
-        "sweet16": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ],
-        "elite8": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ],
-        "final4": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ]
-      }
-    },
-    {
-      "region": "K.DOT",
-      "view": 1,
-      "rds":
-      {
-        "rd64": [
-        {
-          "seed": 1,
-          "songName": "Bitch Don't Kill My Vibe",
-          "songUrl": "",
-          "nextRdIndex": 0
-        },
-        {
-          "seed": 16,
-          "songName": "untitled 06",
-          "songUrl": "",
-          "nextRdIndex": 0
-        },
-        {
-          "seed": 8,
-          "songName": "King's Dead",
-          "songUrl": "",
-          "nextRdIndex": 1
-        },
-        {
-          "seed": 9,
-          "songName": "Keisha's Song",
-          "songUrl": "",
-          "nextRdIndex": 1
-        },
-        {
-          "seed": 5,
-          "songName": "Ignorance is Bliss",
-          "songUrl": "",
-          "nextRdIndex": 2
-        },
-        {
-          "seed": 12,
-          "songName": "Momma",
-          "songUrl": "",
-          "nextRdIndex": 2
-        },
-        {
-          "seed": 4,
-          "songName": "Black Friday",
-          "songUrl": "",
-          "nextRdIndex": 3
-        },
-        {
-          "seed": 13,
-          "songName": "Wanna Be Heard",
-          "songUrl": "",
-          "nextRdIndex": 3
-        },
-        {
-          "seed": 6,
-          "songName": "i",
-          "songUrl": "",
-          "nextRdIndex": 4
-        },
-        {
-          "seed": 11,
-          "songName": "Compton",
-          "songUrl": "",
-          "nextRdIndex": 4
-        },
-        {
-          "seed": 3,
-          "songName": "A.D.H.D.",
-          "songUrl": "",
-          "nextRdIndex": 5
-        },
-        {
-          "seed": 14,
-          "songName": "Big Shot",
-          "songUrl": "",
-          "nextRdIndex": 5
-        },
-        {
-          "seed": 7,
-          "songName": "Poetic Justice",
-          "songUrl": "",
-          "nextRdIndex": 6
-        },
-        {
-          "seed": 10,
-          "songName": "Sherane",
-          "songUrl": "",
-          "nextRdIndex": 6
-        },
-        {
-          "seed": 2,
-          "songName": "Rigamortis",
-          "songUrl": "",
-          "nextRdIndex": 7
-        },
-        {
-          "seed": 15,
-          "songName": "P&P 1.5",
-          "songUrl": "",
-          "nextRdIndex": 7
-        }
-        ],
-        "rd32": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          }
-        ],
-        "sweet16": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ],
-        "elite8": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ],
-        "final4": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ]
-      }
-    },
-    {
-      "region": "CORNROW",
-      "view": 0,
-      "rds":
-      {
-        "rd64": [
-        {
-          "seed": 1,
-          "songName": "Sing About Me, I'm Dying of Thirst",
-          "songUrl": "",
-          "nextRdIndex": 0
-        },
-        {
-          "seed": 16,
-          "songName": "Real",
-          "songUrl": "",
-          "nextRdIndex": 0
-        },
-        {
-          "seed": 8,
-          "songName": "The Art of Peer Pressure",
-          "songUrl": "",
-          "nextRdIndex": 1
-        },
-        {
-          "seed": 9,
-          "songName": "The Recipe",
-          "songUrl": "",
-          "nextRdIndex": 1
-        },
-        {
-          "seed": 5,
-          "songName": "The Blacker the Berry",
-          "songUrl": "",
-          "nextRdIndex": 2
-        },
-        {
-          "seed": 12,
-          "songName": "Wesley's Theory",
-          "songUrl": "",
-          "nextRdIndex": 2
-        },
-        {
-          "seed": 4,
-          "songName": "Look Out for Detox",
-          "songUrl": "",
-          "nextRdIndex": 3
-        },
-        {
-          "seed": 13,
-          "songName": "You Ain't Gotta Lie",
-          "songUrl": "",
-          "nextRdIndex": 3
-        },
-        {
-          "seed": 6,
-          "songName": "untitled 08",
-          "songUrl": "",
-          "nextRdIndex": 4
-        },
-        {
-          "seed": 11,
-          "songName": "Fuck Your Ethnicity",
-          "songUrl": "",
-          "nextRdIndex": 4
-        },
-        {
-          "seed": 3,
-          "songName": "HUMBLE.",
-          "songUrl": "",
-          "nextRdIndex": 5
-        },
-        {
-          "seed": 14,
-          "songName": "All the Stars",
-          "songUrl": "",
-          "nextRdIndex": 5
-        },
-        {
-          "seed": 7,
-          "songName": "King Kunta",
-          "songUrl": "",
-          "nextRdIndex": 6
-        },
-        {
-          "seed": 10,
-          "songName": "Hood Politics",
-          "songUrl": "",
-          "nextRdIndex": 6
-        },
-        {
-          "seed": 2,
-          "songName": "Money Trees",
-          "songUrl": "",
-          "nextRdIndex": 7
-        },
-        {
-          "seed": 15,
-          "songName": "The Heart Pt. 4",
-          "songUrl": "",
-          "nextRdIndex": 7
-        }
-        ],
-        "rd32": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          }
-        ],
-        "sweet16": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ],
-        "elite8": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ],
-        "final4": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ]
-      }
-    },
-    {
-      "region": "KING",
-      "view": 1,
-      "rds":
-      {
-        "rd64": [
-        {
-          "seed": 1,
-          "songName": "m.A.A.d City",
-          "songUrl": "",
-          "nextRdIndex": 0
-        },
-        {
-          "seed": 16,
-          "songName": "No Make-Up",
-          "songUrl": "",
-          "nextRdIndex": 0
-        },
-        {
-          "seed": 8,
-          "songName": "Hol' Up",
-          "songUrl": "",
-          "nextRdIndex": 1
-        },
-        {
-          "seed": 9,
-          "songName": "untitled 02",
-          "songUrl": "",
-          "nextRdIndex": 1
-        },
-        {
-          "seed": 5,
-          "songName": "untitled 07",
-          "songUrl": "",
-          "nextRdIndex": 2
-        },
-        {
-          "seed": 12,
-          "songName": "LOYALTY.",
-          "songUrl": "",
-          "nextRdIndex": 2
-        },
-        {
-          "seed": 4,
-          "songName": "u",
-          "songUrl": "",
-          "nextRdIndex": 3
-        },
-        {
-          "seed": 13,
-          "songName": "The Heart Pt. 3",
-          "songUrl": "",
-          "nextRdIndex": 3
-        },
-        {
-          "seed": 6,
-          "songName": "DNA.",
-          "songUrl": "",
-          "nextRdIndex": 4
-        },
-        {
-          "seed": 11,
-          "songName": "DUCKWORTH.",
-          "songUrl": "",
-          "nextRdIndex": 4
-        },
-        {
-          "seed": 3,
-          "songName": "Backseat Freestyle",
-          "songUrl": "",
-          "nextRdIndex": 5
-        },
-        {
-          "seed": 14,
-          "songName": "Pray For Me",
-          "songUrl": "",
-          "nextRdIndex": 5
-        },
-        {
-          "seed": 7,
-          "songName": "ELEMENT.",
-          "songUrl": "",
-          "nextRdIndex": 6
-        },
-        {
-          "seed": 10,
-          "songName": "Blow My High",
-          "songUrl": "",
-          "nextRdIndex": 6
-        },
-        {
-          "seed": 2,
-          "songName": "Alright",
-          "songUrl": "",
-          "nextRdIndex": 7
-        },
-        {
-          "seed": 15,
-          "songName": "Growing Apart",
-          "songUrl": "",
-          "nextRdIndex": 7
-        }
-        ],
-        "rd32": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 3
-          }
-        ],
-        "sweet16": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ],
-        "elite8": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }
-        ],
-        "final4": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ]
-      }
-    },
-    {
-      "region": "FINALS",
-      "view": 2,
-      "final4": [
-        {
-          "seed": "",
-          "songName": "",
-          "songUrl": "",
-          "nextRdIndex": 0
-        },
-        {
-          "seed": "",
-          "songName": "",
-          "songUrl": "",
-          "nextRdIndex": 0
-        },
-        {
-          "seed": "",
-          "songName": "",
-          "songUrl": "",
-          "nextRdIndex": 1
-        },
-        {
-          "seed": "",
-          "songName": "",
-          "songUrl": "",
-          "nextRdIndex": 1
-        }
-      ],
-      "championship": [
-        {
-          "seed": "",
-          "songName": "",
-          "songUrl": "",
-          "nextRdIndex": 0
-        },
-        {
-          "seed": "",
-          "songName": "",
-          "songUrl": "",
-          "nextRdIndex": 0
-        }          
-      ],
-      "champion": [
-        {
-          "seed": "",
-          "songName": "",
-          "songUrl": ""
-        }
-      ]
-    }
-  ]
+    ]
 }

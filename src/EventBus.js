@@ -10,6 +10,7 @@ export const eventBus = new Vue({
         },
         appActive: false,
         selectedArtist: '',
+        currentBracketView: 0,
         rdOrder: ['rd64', 'rd32', 'sweet16', 'elite8', 'final4'],
         rdFullNames: {
             'rd64': 'Round of 64',
@@ -50,22 +51,29 @@ export const eventBus = new Vue({
             return regions;
         },
         pullNextRd(currRd) {
-            // var index = this.rdOrder.findIndex((element) => {
-            //     return element === currRd;
-            // });
             var index = this.rdOrder.indexOf(currRd);
             var nextIndex = index + 1;
-            console.log(nextIndex);
             if (nextIndex < this.rdOrder.length) {
-                console.log(this.rdOrder[nextIndex]);
                 return this.rdOrder[nextIndex];
             } else {
                 console.log('There is no next round!');
             }
         },
-        updateSongPosition(songData, currRd) {
-            this.pullNextRd(currRd);
-            //this.selectedArtist.rds[currRd]
+        updateSongPosition(songData, currRd, orientation) {
+            var region = '';
+            var nextRd = this.pullNextRd(currRd);
+            var regions = this.pullRegions(this.currentBracketView);
+
+            if (orientation === 'left') {
+                region = regions[0];
+            } else {
+                region = regions[1];
+            }
+            region.rds[nextRd][songData.nextRdIndex].songName = songData.songName;
+            region.rds[nextRd][songData.nextRdIndex].seed = songData.seed;
+            region.rds[nextRd][songData.nextRdIndex].songUrl = songData.songUrl;
+
+
         }
     }
 });

@@ -26,7 +26,7 @@
     data: () => {
       return{
         appStart: eventBus.appActive,
-        view: 0
+        view: eventBus.currentBracketView
       }
     },
     components: {

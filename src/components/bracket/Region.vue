@@ -47,7 +47,7 @@
                 return eventBus.rdFullNames[rdKey];
             },
             advanceSong(song, currRd){
-                eventBus.updateSongPosition(song, currRd);
+                eventBus.updateSongPosition(song, currRd, this.orientation);
             }
         },
         created(){
