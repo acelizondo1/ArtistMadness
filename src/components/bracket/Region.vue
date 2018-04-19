@@ -22,15 +22,20 @@
             };
         },
         props: ['region', 'orientation'],
+        watch: {
+            region: function(newRegion) {
+                this.regionRds = this.orderRegion(newRegion);
+            }
+        },
         methods: {
-            orderRegion(orientation){
+            orderRegion(region){
                 var order = [];
-                for(var key in this.region.rds){
+                for(var key in region.rds){
                     var rdObject = {};
-                    rdObject[key] = this.region.rds[key];
-                    if(orientation === 'right'){
+                    rdObject[key] = region.rds[key];
+                    if(this.orientation === 'right'){
                         order.unshift(rdObject);
-                    } else if (orientation === 'left') {
+                    } else if (this.orientation === 'left') {
                         order.push(rdObject);
                     }
                 }
@@ -39,11 +44,11 @@
             }
         },
         created(){
-            this.regionRds = this.orderRegion(this.orientation);
+            this.regionRds = this.orderRegion(this.region);
 
-            eventBus.$on('selectedArtistChanged', (data) => {
-                this.regionRds = this.orderRegion(this.orientation);
-            });
+            // eventBus.$on('selectedArtistChanged', (data) => {
+            //     this.regionRds = this.orderRegion(this.orientation);
+            // });
         }
     }
 </script>
