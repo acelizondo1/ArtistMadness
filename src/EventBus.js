@@ -9,7 +9,15 @@ export const eventBus = new Vue({
             artistList: [kendrick, kanye, jcole]
         },
         appActive: false,
-        selectedArtist: ''
+        selectedArtist: '',
+        rdOrder: ['rd64', 'rd32', 'sweet16', 'elite8', 'final4'],
+        rdFullNames: {
+            'rd64': 'Round of 64',
+            'rd32': 'Round of 32',
+            'sweet16': 'Sweet 16',
+            'elite8': 'Elite 8',
+            'final4': 'Final 4'
+        }
     },
     methods: {
         pickArtistBracket(artistObject) {

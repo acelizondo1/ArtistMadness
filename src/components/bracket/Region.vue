@@ -2,7 +2,7 @@
     <div class="grid-x rdCell">
         <div class="cell rdColumn" v-for="round in regionRds">
             <div v-for="(rdData, rdName) in round">
-                <div class="rdHeader">{{ rdName}}</div>
+                <div class="rdHeader">{{ generateRoundName(rdName) }}</div>
                 <div class="songCell" :class="rdName" v-for="song in rdData" @click="advanceSong(song)">
                     <div class="songSeed">{{ song.seed }}.</div>
                     <div class="songName">{{ song.songName }}</div>
@@ -20,6 +20,7 @@
             return {
                 regionRds: ''
             };
+
         },
         props: ['region', 'orientation'],
         watch: {
@@ -41,6 +42,10 @@
                 }
                 
                 return order;
+            },
+            generateRoundName(rdKey){
+                console.log(eventBus.rdFullNames[rdKey]);
+                return eventBus.rdFullNames[rdKey];
             },
             advanceSong(song){
                 

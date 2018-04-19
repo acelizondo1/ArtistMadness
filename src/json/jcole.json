@@ -1,870 +1,836 @@
 {
     "artistName": "J. Cole",
     "bracketSize": 64,
-    "bracketEntries": [
-      {
-        "region": "Sideline Story",
-        "view": 0,
-        "rds" :
-          {   
-            "rd64": [
-              {
-                "seed": 1,
-                "songName": "I Get Up",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": 16,
-                "songName": "Rise Above",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": 8,
-                "songName": "Immortal",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": 9,
-                "songName": "/'03 Adolescence",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": 5,
-                "songName": "Like A Star",
-                "songUrl": "",
-                "nextRdIndex": 2
-              },
-              {
-                "seed": 12,
-                "songName": "I'm The Man",
-                "songUrl": "",
-                "nextRdIndex": 2
-              },
-              {
-                "seed": 4,
-                "songName": "LAnd Of The Snakes",
-                "songUrl": "",
-                "nextRdIndex": 3
-              },
-              {
-                "seed": 13,
-                "songName": "No Role Modelz",
-                "songUrl": "",
-                "nextRdIndex": 3
-              },
-              {
-                "seed": 6,
-                "songName": "In The Morning",
-                "songUrl": "",
-                "nextRdIndex": 4
-              },
-              {
-                "seed": 11,
-                "songName": "Enchanted",
-                "songUrl": "",
-                "nextRdIndex": 4
-              },
-              {
-                "seed": 3,
-                "songName": "Lost Ones",
-                "songUrl": "",
-                "nextRdIndex": 5
-              },
-              {
-                "seed": 14,
-                "songName": "Deja vu",
-                "songUrl": "",
-                "nextRdIndex": 5
-              },
-              {
-                "seed": 7,
-                "songName": "Hold It Down",
-                "songUrl": "",
-                "nextRdIndex": 6
-              },
-              {
-                "seed": 10,
-                "songName": "She Knows",
-                "songUrl": "",
-                "nextRdIndex": 6
-              },
-              {
-                "seed": 2,
-                "songName": "Can't Cry",
-                "songUrl": "",
-                "nextRdIndex": 7
-              },
-              {
-                "seed": 15,
-                "songName": "Home For The Holidays",
-                "songUrl": "",
-                "nextRdIndex": 7
-              }
-            ],
-            "rd32": [
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 2
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 2
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 3
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 3
-              }
-            ],
-            "sweet16": [
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 1
-              }
-            ],
-            "elite8": [
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              }
-            ],
-            "final4": [
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              }
-            ]
-          }
-      },
-      {
-        "region": "BORN SINNER",
-        "view": 1,
-        "rds":
-            {
-              "rd64": [
-              {
-                "seed": 1,
-                "songName": "4 Your Eyez Only",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": 16,
-                "songName": "Villuminato",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": 8,
-                "songName": "College Boy",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": 9,
-                "songName": "N****z Know",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": 5,
-                "songName": "Lights Please",
-                "songUrl": "",
-                "nextRdIndex": 2
-              },
-              {
-                "seed": 12,
-                "songName": "Chaining Day",
-                "songUrl": "",
-                "nextRdIndex": 2
-              },
-              {
-                "seed": 4,
-                "songName": "Farewell",
-                "songUrl": "",
-                "nextRdIndex": 3
-              },
-              {
-                "seed": 13,
-                "songName": "Heartache",
-                "songUrl": "",
-                "nextRdIndex": 3
-              },
-              {
-                "seed": 6,
-                "songName": "Crooked Smile",
-                "songUrl": "",
-                "nextRdIndex": 4
-              },
-              {
-                "seed": 11,
-                "songName": "Wishes",
-                "songUrl": "",
-                "nextRdIndex": 4
-              },
-              {
-                "seed": 3,
-                "songName": "A Tale Of 2 Citiez",
-                "songUrl": "",
-                "nextRdIndex": 5
-              },
-              {
-                "seed": 14,
-                "songName": "Simba",
-                "songUrl": "",
-                "nextRdIndex": 5
-              },
-              {
-                "seed": 7,
-                "songName": "Before I'm Gone",
-                "songUrl": "",
-                "nextRdIndex": 6
-              },
-              {
-                "seed": 10,
-                "songName": "Foldin' Clothes",
-                "songUrl": "",
-                "nextRdIndex": 6
-              },
-              {
-                "seed": 2,
-                "songName": "Love Yourz",
-                "songUrl": "",
-                "nextRdIndex": 7
-              },
-              {
-                "seed": 15,
-                "songName": "Nobody's Perfect",
-                "songUrl": "",
-                "nextRdIndex": 7
-              }
-              ],
-              "rd32": [
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 2
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 2
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 3
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 3
-              }
-              ],
-              "sweet16": [
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 1
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 1
-              }
-              ],
-              "elite8": [
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              },
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              }
-              ],
-              "final4": [
-              {
-                "seed": "",
-                "songName": "",
-                "songUrl": "",
-                "nextRdIndex": 0
-              }
-              ]
+    "bracketEntries": [{
+            "region": "Sideline Story",
+            "view": 0,
+            "rds": {
+                "rd64": [{
+                        "seed": 1,
+                        "songName": "I Get Up",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 16,
+                        "songName": "Rise Above",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 8,
+                        "songName": "Immortal",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 9,
+                        "songName": "/'03 Adolescence",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 5,
+                        "songName": "Like A Star",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 12,
+                        "songName": "I'm The Man",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 4,
+                        "songName": "LAnd Of The Snakes",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 13,
+                        "songName": "No Role Modelz",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 6,
+                        "songName": "In The Morning",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 11,
+                        "songName": "Enchanted",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 3,
+                        "songName": "Lost Ones",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 14,
+                        "songName": "Deja vu",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 7,
+                        "songName": "Hold It Down",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 10,
+                        "songName": "She Knows",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 2,
+                        "songName": "Can't Cry",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    },
+                    {
+                        "seed": 15,
+                        "songName": "Home For The Holidays",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    }
+                ],
+                "rd32": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    }
+                ],
+                "sweet16": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "elite8": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                }]
             }
-          },
-      {
-        "region": "2014 FORREST HILLS DRIVE",
-        "view": 0,
-        "rds":
+        },
         {
-          "rd64": [
-          {
-            "seed": 1,
-            "songName": "Unabomber",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": 16,
-            "songName": "I Do My Thing",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": 8,
-            "songName": "God's Gift",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": 9,
-            "songName": "Premeditated Murder",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": 5,
-            "songName": "G.O.M.D.",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": 12,
-            "songName": "Grown Simba",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": 4,
-            "songName": "School Daze",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": 13,
-            "songName": "Runaway",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": 6,
-            "songName": "Change",
-            "songUrl": "",
-            "nextRdIndex": 4
-          },
-          {
-            "seed": 11,
-            "songName": "Apparently",
-            "songUrl": "",
-            "nextRdIndex": 4
-          },
-          {
-            "seed": 3,
-            "songName": "Can I Live",
-            "songUrl": "",
-            "nextRdIndex": 5
-          },
-          {
-            "seed": 14,
-            "songName": "Crunch Time",
-            "songUrl": "",
-            "nextRdIndex": 5
-          },
-          {
-            "seed": 7,
-            "songName": "Ruch N****s",
-            "songUrl": "",
-            "nextRdIndex": 6
-          },
-          {
-            "seed": 10,
-            "songName": "Breakdown",
-            "songUrl": "",
-            "nextRdIndex": 6
-          },
-          {
-            "seed": 2,
-            "songName": "Too Deep For The Intro",
-            "songUrl": "",
-            "nextRdIndex": 7
-          },
-          {
-            "seed": 15,
-            "songName": "For Whom The Bell Tolls",
-            "songUrl": "",
-            "nextRdIndex": 7
-          }
-          ],
-          "rd32": [
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 2
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 2
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 3
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 3
+            "region": "BORN SINNER",
+            "view": 1,
+            "rds": {
+                "rd64": [{
+                        "seed": 1,
+                        "songName": "4 Your Eyez Only",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 16,
+                        "songName": "Villuminato",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 8,
+                        "songName": "College Boy",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 9,
+                        "songName": "N****z Know",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 5,
+                        "songName": "Lights Please",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 12,
+                        "songName": "Chaining Day",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 4,
+                        "songName": "Farewell",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 13,
+                        "songName": "Heartache",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 6,
+                        "songName": "Crooked Smile",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 11,
+                        "songName": "Wishes",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 3,
+                        "songName": "A Tale Of 2 Citiez",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 14,
+                        "songName": "Simba",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 7,
+                        "songName": "Before I'm Gone",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 10,
+                        "songName": "Foldin' Clothes",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 2,
+                        "songName": "Love Yourz",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    },
+                    {
+                        "seed": 15,
+                        "songName": "Nobody's Perfect",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    }
+                ],
+                "rd32": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    }
+                ],
+                "sweet16": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "elite8": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                }]
             }
-          ],
-          "sweet16": [
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
-            }
-          ],
-          "elite8": [
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            }
-          ],
-          "final4": [
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
-            }
-          ]
-        }
-      },
-      {
-        "region": "4 YOUR EYEZ ONLY",
-        "view": 1,
-        "rds": 
+        },
         {
-          "rd64": [
-          {
-            "seed": 1,
-            "songName": "Power Trip",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": 16,
-            "songName": "Ladies",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": 8,
-            "songName": "Pity",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": 9,
-            "songName": "Knock Knock",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": 5,
-            "songName": "See World",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": 12,
-            "songName": "Vile Mentality",
-            "songUrl": "",
-            "nextRdIndex": 2
-          },
-          {
-            "seed": 4,
-            "songName": "Is She Gon Pop",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": 13,
-            "songName": "Rise And Shine",
-            "songUrl": "",
-            "nextRdIndex": 3
-          },
-          {
-            "seed": 6,
-            "songName": "Throw It Up",
-            "songUrl": "",
-            "nextRdIndex": 4
-          },
-          {
-            "seed": 11,
-            "songName": "Never Told",
-            "songUrl": "",
-            "nextRdIndex": 4
-          },
-          {
-            "seed": 3,
-            "songName": "Neighbors",
-            "songUrl": "",
-            "nextRdIndex": 5
-          },
-          {
-            "seed": 14,
-            "songName": "Vilematic",
-            "songUrl": "",
-            "nextRdIndex": 5
-          },
-          {
-            "seed": 7,
-            "songName": "Wet Dreams",
-            "songUrl": "",
-            "nextRdIndex": 6
-          },
-          {
-            "seed": 10,
-            "songName": "Split You Up",
-            "songUrl": "",
-            "nextRdIndex": 6
-          },
-          {
-            "seed": 2,
-            "songName": "Sideline Story",
-            "songUrl": "",
-            "nextRdIndex": 7
-          },
-          {
-            "seed": 15,
-            "songName": "Fire Squad",
-            "songUrl": "",
-            "nextRdIndex": 7
-          }
-          ],
-          "rd32": [
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 2
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 2
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 3
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 3
+            "region": "2014 FORREST HILLS DRIVE",
+            "view": 0,
+            "rds": {
+                "rd64": [{
+                        "seed": 1,
+                        "songName": "Unabomber",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 16,
+                        "songName": "I Do My Thing",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 8,
+                        "songName": "God's Gift",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 9,
+                        "songName": "Premeditated Murder",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 5,
+                        "songName": "G.O.M.D.",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 12,
+                        "songName": "Grown Simba",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 4,
+                        "songName": "School Daze",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 13,
+                        "songName": "Runaway",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 6,
+                        "songName": "Change",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 11,
+                        "songName": "Apparently",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 3,
+                        "songName": "Can I Live",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 14,
+                        "songName": "Crunch Time",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 7,
+                        "songName": "Ruch N****s",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 10,
+                        "songName": "Breakdown",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 2,
+                        "songName": "Too Deep For The Intro",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    },
+                    {
+                        "seed": 15,
+                        "songName": "For Whom The Bell Tolls",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    }
+                ],
+                "rd32": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    }
+                ],
+                "sweet16": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "elite8": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 1
+                }]
             }
-          ],
-          "sweet16": [
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
+        },
+        {
+            "region": "4 YOUR EYEZ ONLY",
+            "view": 1,
+            "rds": {
+                "rd64": [{
+                        "seed": 1,
+                        "songName": "Power Trip",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 16,
+                        "songName": "Ladies",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": 8,
+                        "songName": "Pity",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 9,
+                        "songName": "Knock Knock",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": 5,
+                        "songName": "See World",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 12,
+                        "songName": "Vile Mentality",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": 4,
+                        "songName": "Is She Gon Pop",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 13,
+                        "songName": "Rise And Shine",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": 6,
+                        "songName": "Throw It Up",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 11,
+                        "songName": "Never Told",
+                        "songUrl": "",
+                        "nextRdIndex": 4
+                    },
+                    {
+                        "seed": 3,
+                        "songName": "Neighbors",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 14,
+                        "songName": "Vilematic",
+                        "songUrl": "",
+                        "nextRdIndex": 5
+                    },
+                    {
+                        "seed": 7,
+                        "songName": "Wet Dreams",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 10,
+                        "songName": "Split You Up",
+                        "songUrl": "",
+                        "nextRdIndex": 6
+                    },
+                    {
+                        "seed": 2,
+                        "songName": "Sideline Story",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    },
+                    {
+                        "seed": 15,
+                        "songName": "Fire Squad",
+                        "songUrl": "",
+                        "nextRdIndex": 7
+                    }
+                ],
+                "rd32": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 2
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 3
+                    }
+                ],
+                "sweet16": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "elite8": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 1
+                }]
             }
-          ],
-          "elite8": [
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            },
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 0
-            }
-          ],
-          "final4": [
-            {
-              "seed": "",
-              "songName": "",
-              "songUrl": "",
-              "nextRdIndex": 1
-            }
-          ]
+        },
+        {
+            "region": "FINALS",
+            "view": 2,
+            "final4": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                },
+                {
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                },
+                {
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 1
+                },
+                {
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 1
+                }
+            ],
+            "championship": [{
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                },
+                {
+                    "seed": "",
+                    "songName": "",
+                    "songUrl": "",
+                    "nextRdIndex": 0
+                }
+            ],
+            "champion": [{
+                "seed": "",
+                "songName": "",
+                "songUrl": ""
+            }]
         }
-      },
-      {
-        "region": "FINALS",
-        "view": 2,
-        "final4": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 1
-          }
-        ],
-        "championship": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          },
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": "",
-            "nextRdIndex": 0
-          }          
-        ],
-        "champion": [
-          {
-            "seed": "",
-            "songName": "",
-            "songUrl": ""
-          }
-        ]
-      }
     ]
-  }
-  
+}
