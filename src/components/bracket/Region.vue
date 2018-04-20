@@ -9,6 +9,7 @@
                 </div>
             </div>
         </div>
+        <div class="regionName"><h4><b>{{ region.region }} REGION</b></h4></div>
     </div>
 </template>
 
@@ -75,10 +76,6 @@
                 }
                 domRegion = document.getElementsByClassName(this.orientation)[0].getElementsByClassName(targetKey + ' roundWinner');
                 if(domRegion[0]){
-                    // for(var el in domRegion){
-                    //     console.log(domRegion[el]);
-                    //     domRegion[el].classList.remove('roundWinner');
-                    // }
                     domRegion[0].classList.remove('roundWinner');
                 }
                 target.classList.add('roundWinner');
@@ -91,9 +88,14 @@
 </script>
 
 <style scoped>
+h4{
+    font-size: 2em;
+}
+
 .rdCell{
     font-size: 0.7rem;
     text-align: center;
+    position: relative;
 }
 
 .rdColumn{
@@ -166,6 +168,19 @@
 .roundWinner{
     background-color: #00ffff;
     border: 1px solid #777;
+}
+
+.regionName{
+    position:absolute;
+    top: 50%;
+}
+
+.left .regionName{
+    left: 50%;
+}
+
+.right .regionName{
+    right: 50%;
 }
 
 
