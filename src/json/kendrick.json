@@ -198,7 +198,7 @@
             }
         },
         {
-            "region": "K.DOT",
+            "region": "K.Dot",
             "view": 1,
             "rds": {
                 "rd64": [{
@@ -394,7 +394,7 @@
             }
         },
         {
-            "region": "CORNROW",
+            "region": "Cornrow",
             "view": 0,
             "rds": {
                 "rd64": [{
@@ -590,7 +590,7 @@
             }
         },
         {
-            "region": "KING",
+            "region": "King",
             "view": 1,
             "rds": {
                 "rd64": [{
