@@ -1,6 +1,6 @@
 <template>
   <div class="bracket container fluid">
-      <div class="bracketDown"><img src="../../images/arrow-down.png" alt="arrow"></div>
+      <div class="arrow bracketUp" @click="moveBracket('up')" v-if="bracketView != 0"><img src="../../images/arrow-up.png" alt="arrow"></div>
       <div class="grid-x">
           <div class="cell small-6">
                <keep-alive>
@@ -13,7 +13,7 @@
                </keep-alive>
           </div>
       </div>
-      
+      <div class="arrow bracketDown" @click="moveBracket('down')" v-if="bracketView <= 1"><img src="../../images/arrow-down.png" alt="arrow"></div>
   </div>
 </template>
 
@@ -24,16 +24,27 @@
     export default {
         data: () => {
             return {
-                regions: []
+                regions: [],
+                bracketView: eventBus.currentBracketView
             };
         },
-        props: ['bracketView'],
         components: {
             'bracket-region': Region
+        },
+        methods: {
+            moveBracket(direction){
+                eventBus.bracketViewChange(direction);
+            }
         },
         created(){
             this.regions = eventBus.pullRegions(this.bracketView);
             eventBus.$on('selectedArtistChanged', (newArtist) => {
+                this.regions = eventBus.pullRegions(this.bracketView);
+            });
+
+            eventBus.$on('bracketViewChange', (currentView)=>{
+                this.bracketView = currentView;
+                console.log(this.bracketView);
                 this.regions = eventBus.pullRegions(this.bracketView);
             });
         }
@@ -50,16 +61,26 @@
         position: relative;
     }
 
-    .bracketDown{
+    .arrow{
         width: 100%;
         position: absolute;
-        bottom: 5vh;
+        
+        cursor: pointer;
+        z-index: 999;
     }
 
-    .bracketDown img{
+    .arrow img{
         display: block;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .bracketDown{
+        bottom: 5vh;
+    }
+
+    .bracketUp{
+        top: 5vh;
     }
 
 </style>

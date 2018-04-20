@@ -49,6 +49,14 @@ export const eventBus = new Vue({
         appStateChange() {
             this.$emit('appStateChange', this.appActive);
         },
+        bracketViewChange(direction) {
+            if (direction === 'up') {
+                this.currentBracketView--;
+            } else if (direction === 'down') {
+                this.currentBracketView++;
+            }
+            this.$emit('bracketViewChange', this.currentBracketView);
+        },
         pullRegions(bracketView) {
             var regions = [];
             this.selectedArtist.bracketEntries.forEach((region) => {

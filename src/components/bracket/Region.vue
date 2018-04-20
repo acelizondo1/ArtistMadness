@@ -9,7 +9,7 @@
                 </div>
             </div>
         </div>
-        <div class="regionName"><h4><b>{{ region.region }} REGION</b></h4></div>
+        <div class="regionName"><h4><b>{{ region.region }} Region</b></h4></div>
     </div>
 </template>
 
