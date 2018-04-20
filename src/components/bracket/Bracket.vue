@@ -1,6 +1,6 @@
 <template>
   <div class="bracket container fluid">
-      <div class="arrow bracketUp" @click="moveBracket('up')" v-if="bracketView != 0"><img src="../../images/arrow-up.png" alt="arrow"></div>
+      <div class="arrow bracketUp" @click="moveBracket('up')" v-if="bracketView != 0"><img src="../../images/arrow-down.png" alt="arrow"></div>
       <div class="grid-x">
           <div class="cell small-6">
                <keep-alive>
@@ -62,18 +62,16 @@
     }
 
     .arrow{
-        width: 100%;
-        position: absolute;
-        
+        position: absolute;        
         cursor: pointer;
         z-index: 999;
-    }
-
-    .arrow img{
-        display: block;
+        width: 5rem;
+        left: 0;
+        right: 0;
         margin-right: auto;
         margin-left: auto;
     }
+
 
     .bracketDown{
         bottom: 5vh;
@@ -81,6 +79,7 @@
 
     .bracketUp{
         top: 5vh;
-    }
+        transform: rotate(180deg);
+    } 
 
 </style>
