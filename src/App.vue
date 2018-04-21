@@ -25,7 +25,8 @@
     name: 'app',
     data: () => {
       return{
-        appStart: eventBus.appActive
+        appStart: eventBus.appActive,
+        bracketView: eventBus.currentBracketView
       }
     },
     components: {
@@ -39,8 +40,8 @@
       eventBus.$on('appStateChange', (appState) => {
         this.appStart = appState;
       });
-      
     }
+    
   }
 </script>
 

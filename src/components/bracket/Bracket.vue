@@ -2,16 +2,17 @@
   <div class="bracket container fluid">
       <div class="arrow bracketUp" @click="moveBracket('up')" v-if="bracketView != 0"><img src="../../images/arrow-down.png" alt="arrow"></div>
       <div class="grid-x">
-          <div class="cell small-6">
+          <div class="cell small-6" v-if="bracketView < 2">
                <keep-alive>
                    <bracket-region :region="regions[0]" :orientation="'left'"></bracket-region>
                </keep-alive>
           </div>
-          <div class="cell small-6">
+          <div class="cell small-6" v-if="bracketView < 2">
                <keep-alive>
                    <bracket-region :region="regions[1]" :orientation="'right'"></bracket-region>
                </keep-alive>
           </div>
+          <bracket-finals></bracket-finals>
       </div>
       <div class="arrow bracketDown" @click="moveBracket('down')" v-if="bracketView <= 1"><img src="../../images/arrow-down.png" alt="arrow"></div>
   </div>
@@ -20,6 +21,7 @@
 <script>
     import { eventBus } from '../../EventBus.js';
     import Region from './Region.vue';
+    import Finals from './Finals.vue';
 
     export default {
         data: () => {
@@ -29,7 +31,8 @@
             };
         },
         components: {
-            'bracket-region': Region
+            'bracket-region': Region,
+            'bracket-finals': Finals
         },
         methods: {
             moveBracket(direction){
@@ -44,7 +47,6 @@
 
             eventBus.$on('bracketViewChange', (currentView)=>{
                 this.bracketView = currentView;
-                console.log(this.bracketView);
                 this.regions = eventBus.pullRegions(this.bracketView);
             });
         }
