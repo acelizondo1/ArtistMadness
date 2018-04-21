@@ -65,7 +65,7 @@
         position: absolute;        
         cursor: pointer;
         z-index: 999;
-        width: 5rem;
+        width: 3.6rem;
         left: 0;
         right: 0;
         margin-right: auto;
