@@ -3,10 +3,26 @@
       <div class="cell small-2 final-half final-half-left">
           <div class="grid-y">
               <div class="final-four">
-
+                  <div class="final-four-header">
+                      {{region['final4'][0].regionName}}
+                  </div>
+                  <div class="final-four-body">
+                      <div class="final-four-seed">
+                          {{ region['final4'][0].seed }}
+                      </div>
+                      <div class="final-four-content"></div>
+                  </div>
               </div>
               <div class="final-four">
-
+                  <div class="final-four-header">
+                      {{region['final4'][1].regionName}}
+                  </div>
+                  <div class="final-four-body">
+                      <div class="final-four-seed">
+                          {{ region['final4'][1].seed }}
+                      </div>
+                      <div class="final-four-content"></div>
+                  </div>
               </div>
           </div>
       </div>
@@ -29,10 +45,26 @@
       <div class="cell small-2 final-half final-half-right">
           <div class="grid-y">
               <div class="final-four">
-
+                  <div class="final-four-header">
+                      {{region['final4'][2].regionName}}
+                  </div>
+                  <div class="final-four-body">
+                      <div class="final-four-seed">
+                          {{ region['final4'][2].seed }}
+                      </div>
+                      <div class="final-four-content"></div>
+                  </div>
               </div>
               <div class="final-four">
-
+                  <div class="final-four-header">
+                      {{region['final4'][3].regionName}}
+                  </div>
+                  <div class="final-four-body">
+                      <div class="final-four-seed">
+                          {{ region['final4'][3].seed }}
+                      </div>
+                      <div class="final-four-content"></div>
+                  </div>
               </div>
           </div>
       </div>
@@ -71,6 +103,19 @@
         box-shadow: 0.53rem 0.3rem 0.3rem 0.3rem #ddd;
     }
 
+    .final-four-header{
+        text-align:center;
+        height: 30%;
+        background-color: lightBlue;
+    }
+
+    .final-four-body{
+        width: 20%;
+        height: 5vh;
+        margin-top: 2.75vh;
+        border-right: 1px solid black;
+    }
+
     .champ{
         height: 20vh;
         margin: 15vh 10rem 0 10rem;
@@ -86,6 +131,7 @@
         width: 40%;
         display: inline-block;
         box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem #ddd;
+        cursor: pointer;
     }
 
     .champ-team-left{
