@@ -10,7 +10,9 @@
                       <div class="final-four-seed">
                           {{ region['final4'][0].seed }}
                       </div>
-                      <div class="final-four-content"></div>
+                      <div class="final-four-content">
+                          {{ region['final4'][0].songName }}
+                      </div>
                   </div>
               </div>
               <div class="final-four">
@@ -21,7 +23,9 @@
                       <div class="final-four-seed">
                           {{ region['final4'][1].seed }}
                       </div>
-                      <div class="final-four-content"></div>
+                      <div class="final-four-content">
+                          {{ region['final4'][1].songName }}
+                      </div>
                   </div>
               </div>
           </div>
@@ -52,7 +56,9 @@
                       <div class="final-four-seed">
                           {{ region['final4'][2].seed }}
                       </div>
-                      <div class="final-four-content"></div>
+                      <div class="final-four-content">
+                          {{ region['final4'][2].songName }}
+                      </div>
                   </div>
               </div>
               <div class="final-four">
@@ -63,7 +69,9 @@
                       <div class="final-four-seed">
                           {{ region['final4'][3].seed }}
                       </div>
-                      <div class="final-four-content"></div>
+                      <div class="final-four-content">
+                          {{ region['final4'][3].songName }}
+                      </div>
                   </div>
               </div>
           </div>
@@ -109,11 +117,19 @@
         background-color: lightBlue;
     }
 
-    .final-four-body{
+    .final-four-seed{
+        display:inline-block;
         width: 20%;
         height: 5vh;
         margin-top: 2.75vh;
+        text-align: center;
+        padding-top: 0.75vh;
         border-right: 1px solid black;
+    }
+
+    .final-four-content{
+        display:inline-block;
+        width: 80%;
     }
 
     .champ{
