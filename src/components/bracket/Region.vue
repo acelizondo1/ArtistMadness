@@ -4,7 +4,7 @@
             <div v-for="(rdData, rdName) in round">
                 <div class="rdHeader">{{ generateRoundName(rdName) }}</div>
                 <div class="songCell" :class="[rdName, rdName+song.nextRdIndex]" v-for="song in rdData" @click="advanceSong(song, rdName, $event)">
-                    <div class="songSeed">{{ song.seed }}.</div>
+                    <div class="songSeed">{{ song.seed }}<span v-if="song.seed">.</span></div>
                     <div class="songName">{{ song.songName }}</div>
                 </div>
             </div>
@@ -49,9 +49,7 @@
                 return this.rdFullNames[rdKey][0];
             },
             advanceSong(song, currRd, event){
-                if(currRd === 'final4'){
-                    alert('Please Navigate To Final 4 To Pick Winner')
-                } else if (song.songName != ''){
+                if (song.songName != ''){
                     this.styleSelectedDiv(event.target, song, this.rdFullNames[currRd][1]);
                     eventBus.updateSongPosition(song, currRd, this.orientation);
                 }

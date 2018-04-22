@@ -25,7 +25,10 @@ export const eventBus = new Vue({
             'elite8': [
                 'Elite 8', ['elite80']
             ],
-            'final4': ['Final 4']
+            'final4': [
+                'Final 4', ['final40', 'final41']
+            ],
+            'championship': ['Championship']
         }
     },
     methods: {
@@ -78,16 +81,34 @@ export const eventBus = new Vue({
         updateSongPosition(songData, currRd, orientation) {
             var region = '';
             var nextRd = this.pullNextRd(currRd);
-            var regions = this.pullRegions(this.currentBracketView);
+            if(this.rdOrder.indexOf(nextRd) < 5){
+                var regions = this.pullRegions(this.currentBracketView);
 
-            if (orientation === 'left') {
-                region = regions[0];
+                if (orientation === 'left') {
+                    region = regions[0];
+                } else {
+                    region = regions[1];
+                }
             } else {
-                region = regions[1];
+                region = this.selectedArtist.bracketEntries[4];
             }
-            region.rds[nextRd][songData.nextRdIndex].songName = songData.songName;
-            region.rds[nextRd][songData.nextRdIndex].seed = songData.seed;
-            region.rds[nextRd][songData.nextRdIndex].songUrl = songData.songUrl;
+            if(currRd === 'elite8'){
+                this.passSongData(region, songData, nextRd, this.selectedArtist.bracketEntries[4]);
+            } else{
+                this.passSongData(region, songData, nextRd);
+            }
+        },
+        passSongData(region, songData, nextRd, secondRegion){
+            var nextRdSong = region.rds[nextRd][songData.nextRdIndex];
+            nextRdSong.songName = songData.songName;
+            nextRdSong.seed = songData.seed;
+            nextRdSong.songUrl = songData.songUrl;
+
+            if(secondRegion != undefined){
+                secondRegion['final4'][nextRdSong.nextRdIndex].songName = songData.songName;
+                secondRegion['final4'][nextRdSong.nextRdIndex].seed = songData.seed;
+                secondRegion['final4'][nextRdSong.nextRdIndex].songUrl = songData.songUrl;
+            }
         }
     }
 });

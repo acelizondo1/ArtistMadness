@@ -12,7 +12,7 @@
                    <bracket-region :region="regions[1]" :orientation="'right'"></bracket-region>
                </keep-alive>
           </div>
-          <bracket-finals></bracket-finals>
+          <bracket-finals :region="regions[0]" v-if="bracketView === 2"></bracket-finals>
       </div>
       <div class="arrow bracketDown" @click="moveBracket('down')" v-if="bracketView <= 1"><img src="../../images/arrow-down.png" alt="arrow"></div>
   </div>

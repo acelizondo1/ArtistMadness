@@ -389,7 +389,7 @@
                     "seed": "",
                     "songName": "",
                     "songUrl": "",
-                    "nextRdIndex": 0
+                    "nextRdIndex": 1
                 }]
             }
         },
@@ -585,7 +585,7 @@
                     "seed": "",
                     "songName": "",
                     "songUrl": "",
-                    "nextRdIndex": 1
+                    "nextRdIndex": 2
                 }]
             }
         },
@@ -781,12 +781,12 @@
                     "seed": "",
                     "songName": "",
                     "songUrl": "",
-                    "nextRdIndex": 1
+                    "nextRdIndex": 3
                 }]
             }
         },
         {
-            "region": "FINALS",
+            "region": "Finals",
             "view": 2,
             "final4": [{
                     "seed": "",
