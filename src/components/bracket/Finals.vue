@@ -11,7 +11,8 @@
                           {{ region['final4'][0].seed }}
                       </div>
                       <div class="final-four-content">
-                          {{ region['final4'][0].songName }}
+                          <span>{{ region['final4'][0].songName }}</span>
+                          <span>{{ region['final4'][0].songUrl }}</span>
                       </div>
                   </div>
               </div>
@@ -24,7 +25,8 @@
                           {{ region['final4'][1].seed }}
                       </div>
                       <div class="final-four-content">
-                          {{ region['final4'][1].songName }}
+                          <span>{{ region['final4'][1].songName }}</span>
+                          <span>{{ region['final4'][1].songUrl }}</span>
                       </div>
                   </div>
               </div>
@@ -57,6 +59,8 @@
                           {{ region['final4'][2].seed }}
                       </div>
                       <div class="final-four-content">
+                          <span>{{ region['final4'][2].songName }}</span>
+                          <span>{{ region['final4'][2].songUrl }}</span>
                           {{ region['final4'][2].songName }}
                       </div>
                   </div>
@@ -70,7 +74,8 @@
                           {{ region['final4'][3].seed }}
                       </div>
                       <div class="final-four-content">
-                          {{ region['final4'][3].songName }}
+                          <span>{{ region['final4'][3].songName }}</span>
+                          <span>{{ region['final4'][3].songUrl }}</span>
                       </div>
                   </div>
               </div>
@@ -118,7 +123,7 @@
     }
 
     .final-four-seed{
-        display:inline-block;
+        display:-webkit-inline-flex;
         width: 20%;
         height: 5vh;
         margin-top: 2.75vh;
@@ -128,8 +133,14 @@
     }
 
     .final-four-content{
-        display:inline-block;
-        width: 80%;
+        display: -webkit-inline-flex;
+        width: 75%;
+    }
+
+    .final-four-content span{
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 
     .champ{
