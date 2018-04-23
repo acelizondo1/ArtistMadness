@@ -788,53 +788,55 @@
         {
             "region": "Finals",
             "view": 2,
-            "final4": [{
+            "rds": {
+                    "final4": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "regionName": "Kung-Fu",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "regionName": "K.Dot",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "regionName": "Cornrow",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "regionName": "King",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "championship": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "champion": [{
                     "seed": "",
                     "songName": "",
-                    "songUrl": "",
-                    "regionName": "Kung-Fu",
-                    "nextRdIndex": 0
-                },
-                {
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "regionName": "K.Dot",
-                    "nextRdIndex": 0
-                },
-                {
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "regionName": "Cornrow",
-                    "nextRdIndex": 1
-                },
-                {
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "regionName": "King",
-                    "nextRdIndex": 1
-                }
-            ],
-            "championship": [{
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "nextRdIndex": 0
-                },
-                {
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "nextRdIndex": 0
-                }
-            ],
-            "champion": [{
-                "seed": "",
-                "songName": "",
-                "songUrl": ""
-            }]
+                    "songUrl": ""
+                }]
+            }
         }
     ]
 }

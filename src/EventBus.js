@@ -11,7 +11,7 @@ export const eventBus = new Vue({
         appActive: false,
         selectedArtist: '',
         currentBracketView: 0,
-        rdOrder: ['rd64', 'rd32', 'sweet16', 'elite8', 'final4'],
+        rdOrder: ['rd64', 'rd32', 'sweet16', 'elite8', 'final4', 'championship', 'champion'],
         rdFullNames: {
             'rd64': [
                 'Round of 64', ['rd640', 'rd641', 'rd642', 'rd643', 'rd644', 'rd645', 'rd646', 'rd647']
@@ -28,7 +28,8 @@ export const eventBus = new Vue({
             'final4': [
                 'Final 4', ['final40', 'final41']
             ],
-            'championship': ['Championship']
+            'championship': 'Championship',
+            'champion': 'Champion'
         }
     },
     methods: {
@@ -69,27 +70,33 @@ export const eventBus = new Vue({
             });
             return regions;
         },
-        pullNextRd(currRd) {
+        pullNextRd(currRd, orientation) {
             var index = this.rdOrder.indexOf(currRd);
             var nextIndex = index + 1;
-            if (nextIndex < this.rdOrder.length) {
+            if (nextIndex < this.rdOrder.length && orientation) {
                 return this.rdOrder[nextIndex];
+            } else if(nextIndex <= this.rdOrder.length && !orientation){
+                console.log(nextIndex);
+                return this.rdOrder[nextIndex];
+
             } else {
                 console.log('There is no next round!');
             }
         },
         updateSongPosition(songData, currRd, orientation) {
             var region = '';
-            var nextRd = this.pullNextRd(currRd);
+            var nextRd = this.pullNextRd(currRd, orientation);
+            console.log(nextRd);
             if(this.rdOrder.indexOf(nextRd) < 5){
                 var regions = this.pullRegions(this.currentBracketView);
 
                 if (orientation === 'left') {
                     region = regions[0];
-                } else {
+                } else if(orientation === 'right') {
                     region = regions[1];
                 }
             } else {
+                console.log('in else');
                 region = this.selectedArtist.bracketEntries[4];
             }
             if(currRd === 'elite8'){
@@ -105,9 +112,9 @@ export const eventBus = new Vue({
             nextRdSong.songUrl = songData.songUrl;
 
             if(secondRegion != undefined){
-                secondRegion['final4'][nextRdSong.nextRdIndex].songName = songData.songName;
-                secondRegion['final4'][nextRdSong.nextRdIndex].seed = songData.seed;
-                secondRegion['final4'][nextRdSong.nextRdIndex].songUrl = songData.songUrl;
+                secondRegion['rds']['final4'][nextRdSong.nextRdIndex].songName = songData.songName;
+                secondRegion['rds']['final4'][nextRdSong.nextRdIndex].seed = songData.seed;
+                secondRegion['rds']['final4'][nextRdSong.nextRdIndex].songUrl = songData.songUrl;
             }
         }
     }

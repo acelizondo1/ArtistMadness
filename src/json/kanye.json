@@ -788,53 +788,55 @@
         {
             "region": "Finals",
             "view": 2,
-            "final4": [{
+            "rds": {
+                "final4": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "regionName": "North West",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "regionName": "Donda",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "regionName": "Chicago",
+                        "nextRdIndex": 1
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "regionName": "Saint",
+                        "nextRdIndex": 1
+                    }
+                ],
+                "championship": [{
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    },
+                    {
+                        "seed": "",
+                        "songName": "",
+                        "songUrl": "",
+                        "nextRdIndex": 0
+                    }
+                ],
+                "champion": [{
                     "seed": "",
                     "songName": "",
-                    "songUrl": "",
-                    "regionName": "North West",
-                    "nextRdIndex": 0
-                },
-                {
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "regionName": "Donda",
-                    "nextRdIndex": 0
-                },
-                {
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "regionName": "Chicago",
-                    "nextRdIndex": 1
-                },
-                {
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "regionName": "Saint",
-                    "nextRdIndex": 1
-                }
-            ],
-            "championship": [{
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "nextRdIndex": 0
-                },
-                {
-                    "seed": "",
-                    "songName": "",
-                    "songUrl": "",
-                    "nextRdIndex": 0
-                }
-            ],
-            "champion": [{
-                "seed": "",
-                "songName": "",
-                "songUrl": ""
-            }]
+                    "songUrl": ""
+                }]
+            }
         }
     ]
 }

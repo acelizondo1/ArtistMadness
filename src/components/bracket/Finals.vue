@@ -2,31 +2,31 @@
   <div class="grid-x finals">
       <div class="cell small-2 final-half final-half-left">
           <div class="grid-y">
-              <div class="final-four">
+              <div class="final-four" @click="advanceSong(region['rds']['final4'][0], 'final4')">
                   <div class="final-four-header">
-                      {{region['final4'][0].regionName}}
+                      {{region['rds']['final4'][0].regionName}}
                   </div>
                   <div class="final-four-body">
                       <div class="final-four-seed">
-                          {{ region['final4'][0].seed }}
+                          {{ region['rds']['final4'][0].seed }}
                       </div>
                       <div class="final-four-content">
-                          <span>{{ region['final4'][0].songName }}</span>
-                          <span>{{ region['final4'][0].songUrl }}</span>
+                          <span>{{ region['rds']['final4'][0].songName }}</span>
+                          <span>{{ region['rds']['final4'][0].songUrl }}</span>
                       </div>
                   </div>
               </div>
-              <div class="final-four">
+              <div class="final-four" @click="advanceSong(region['rds']['final4'][1], 'final4')">
                   <div class="final-four-header">
-                      {{region['final4'][1].regionName}}
+                      {{region['rds']['final4'][1].regionName}}
                   </div>
                   <div class="final-four-body">
                       <div class="final-four-seed">
-                          {{ region['final4'][1].seed }}
+                          {{ region['rds']['final4'][1].seed }}
                       </div>
                       <div class="final-four-content">
-                          <span>{{ region['final4'][1].songName }}</span>
-                          <span>{{ region['final4'][1].songUrl }}</span>
+                          <span>{{ region['rds']['final4'][1].songName }}</span>
+                          <span>{{ region['rds']['final4'][1].songUrl }}</span>
                       </div>
                   </div>
               </div>
@@ -39,7 +39,7 @@
               </div>
              <div class="champ-game">
                 <div class="champ-team champ-team-left">
-
+                    {{ region['rds']['championship'][0] }}
                 </div>
                 <div class="champ-team champ-team-right">
 
@@ -50,32 +50,32 @@
       </div>
       <div class="cell small-2 final-half final-half-right">
           <div class="grid-y">
-              <div class="final-four">
+              <div class="final-four" @click="advanceSong(region['rds']['final4'][2], 'final4')">
                   <div class="final-four-header">
-                      {{region['final4'][2].regionName}}
+                      {{region['rds']['final4'][2].regionName}}
                   </div>
                   <div class="final-four-body">
                       <div class="final-four-seed">
-                          {{ region['final4'][2].seed }}
+                          {{ region['rds']['final4'][2].seed }}
                       </div>
                       <div class="final-four-content">
-                          <span>{{ region['final4'][2].songName }}</span>
-                          <span>{{ region['final4'][2].songUrl }}</span>
-                          {{ region['final4'][2].songName }}
+                          <span>{{ region['rds']['final4'][2].songName }}</span>
+                          <span>{{ region['rds']['final4'][2].songUrl }}</span>
+                          {{ region['rds']['final4'][2].songName }}
                       </div>
                   </div>
               </div>
-              <div class="final-four">
+              <div class="final-four" @click="advanceSong(region['rds']['final4'][3], 'final4')">
                   <div class="final-four-header">
-                      {{region['final4'][3].regionName}}
+                      {{region['rds']['final4'][3].regionName}}
                   </div>
                   <div class="final-four-body">
                       <div class="final-four-seed">
-                          {{ region['final4'][3].seed }}
+                          {{ region['rds']['final4'][3].seed }}
                       </div>
                       <div class="final-four-content">
-                          <span>{{ region['final4'][3].songName }}</span>
-                          <span>{{ region['final4'][3].songUrl }}</span>
+                          <span>{{ region['rds']['final4'][3].songName }}</span>
+                          <span>{{ region['rds']['final4'][3].songUrl }}</span>
                       </div>
                   </div>
               </div>
@@ -85,8 +85,16 @@
 </template>
 
 <script>
+    import { eventBus } from '../../EventBus.js';
     export default {
-        props: ['region']
+        props: ['region'],
+        methods: {
+            advanceSong(song, nextRd){
+                if(song.songName != ''){
+                    eventBus.updateSongPosition(song, nextRd);
+                }
+            }
+        }
     }
 </script>
 
