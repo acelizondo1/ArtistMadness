@@ -35,14 +35,45 @@
       <div class="cell small-7 championship">
           <div class="grid-y">
               <div class="champ">
-                  {{ region['rds']['champion'][0]}}
+                  <div class="champ-body">
+                        <div class="champ-header">
+                            <h3>Winner!</h3>
+                        </div>
+                        <div class="champ-content">
+                            <span>{{ region['rds']['champion'][0].seed}}</span>
+                            <span>{{ region['rds']['champion'][0].songName }}</span>
+                            <span><a :href="region['rds']['champion'][0].songUrl">Song Link</a></span>
+                        </div>
+                    </div>
               </div>
              <div class="champ-game">
                 <div class="champ-team champ-team-left" @click="advanceSong(region['rds']['championship'][0], 'championship')">
-                    {{ region['rds']['championship'][0] }}
+                    <div class="champ-team-body">
+                        <div class="champ-team-header">
+                            <h3></h3>
+                        </div>
+                        <div class="champ-team-content">
+                            <span>{{ region['rds']['championship'][0].seed}}</span>
+                            <span>{{ region['rds']['championship'][0].songName }}</span>
+                            <span v-if="region['rds']['championship'][0].songUrl">
+                                <a :href="region['rds']['championship'][0].songUrl">Song Link</a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
-                <div class="champ-team champ-team-right">
-
+                <div class="champ-team champ-team-right" @click="advanceSong(region['rds']['championship'][0], 'championship')">
+                    <div class="champ-team-body">
+                        <div class="champ-team-header">
+                            <h3></h3>
+                        </div>
+                        <div class="champ-team-content">
+                            <span>{{ region['rds']['championship'][1].seed}}</span>
+                            <span>{{ region['rds']['championship'][1].songName }}</span>
+                            <span v-if="region['rds']['championship'][1].songUrl">
+                                <a :href="region['rds']['championship'][1].songUrl">Song Link</a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
              </div>
 
@@ -124,7 +155,9 @@
         box-shadow: 0.53rem 0.3rem 0.3rem 0.3rem #ddd;
     }
 
-    .final-four-header{
+    .final-four-header,
+    .champ-team-header,
+    .champ-header{
         text-align:center;
         height: 30%;
         background-color: lightBlue;
