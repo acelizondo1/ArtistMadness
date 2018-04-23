@@ -35,10 +35,10 @@
       <div class="cell small-7 championship">
           <div class="grid-y">
               <div class="champ">
-
+                  {{ region['rds']['champion'][0]}}
               </div>
              <div class="champ-game">
-                <div class="champ-team champ-team-left">
+                <div class="champ-team champ-team-left" @click="advanceSong(region['rds']['championship'][0], 'championship')">
                     {{ region['rds']['championship'][0] }}
                 </div>
                 <div class="champ-team champ-team-right">
